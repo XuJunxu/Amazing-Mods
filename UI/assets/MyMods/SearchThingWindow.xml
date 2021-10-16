@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="260,360">
+  <displayList>
+    <component id="n0_q9cp" name="frame" src="v6073f" fileName="Window/WindowFrame.xml" pkg="ncbwb41m" xy="0,0" size="260,360">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="地图物品搜索"/>
+    </component>
+    <image id="n3_q9cp" name="n3" src="kjtf46" fileName="images/bg_line01.png" pkg="ncbwb41m" xy="0,93" size="260,2">
+      <relation target="" sidePair="width-width,top-top"/>
+    </image>
+    <image id="n4_q9cp" name="n4" src="kjtf46" fileName="images/bg_line01.png" pkg="ncbwb41m" xy="0,332" size="260,2">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <list id="n7_q9cp" name="list" xy="19,96" size="220,234" selectionMode="none" overflow="scroll" scrollBarFlags="4" lineGap="4" defaultItem="ui://qzpd4yxop5v82" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height,center-center,top-top"/>
+      <item title="物品物品物品"/>
+      <item title="物品物品"/>
+      <item title="物品物品物品物品物品"/>
+      <item title="物品"/>
+      <item title="物品"/>
+      <item title="物品"/>
+      <item title="物品"/>
+      <item title="物品"/>
+      <item title="物品"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n16_j3rx" name="input" src="v6072k" fileName="Input/TextInput.xml" pkg="ncbwb41m" xy="115,64" size="71,23">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n17_p5v8" name="tips" src="p5v83" fileName="com/TipsLabel.xml" xy="10,25"/>
+    <component id="n18_p5v8" name="search" src="p5v84" fileName="com/Button2.xml" xy="188,63" size="43,25">
+      <relation target="n16_j3rx" sidePair="middle-middle,left-right"/>
+      <Button title="搜索"/>
+    </component>
+    <image id="n19_o3ej" name="n19" src="kjtf47" fileName="images/bg_title001.png" pkg="ncbwb41m" xy="57,21" size="143,29" restrictSize="0,200,0,0">
+      <relation target="" sidePair="center-center,top-top"/>
+    </image>
+    <text id="n20_o3ej" name="title" xy="65,25" size="130,22" fontSize="14" color="#444444" align="center" vAlign="middle" autoSize="none" singleLine="true" text="地图物品搜索">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+    <text id="n22_o3ej" name="sum" xy="22,66" size="66,19" fontSize="12" color="#514030" autoSize="none" singleLine="true" autoClearText="true" text="9999"/>
+  </displayList>
+</component>

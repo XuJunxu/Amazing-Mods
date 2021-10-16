@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="k7q2d9te" hasFavorites="true">
+  <resources>
+    <component id="q9cpi" name="StorageConfigWindow.xml" path="/" exported="true"/>
+    <component id="q9cpj" name="StorageListItem.xml" path="/com/" exported="true"/>
+    <component id="jl7l0" name="TipsLabel.xml" path="/com/" exported="true"/>
+    <component id="jrjpk" name="Button2.xml" path="/com/" exported="true" favorite="true"/>
+    <component id="v6lel" name="ComboBox.xml" path="/com/" exported="true"/>
+    <component id="lrz6m" name="FrameTitle1.xml" path="/com/" exported="true"/>
+    <component id="lrz6n" name="WindowFrame0.xml" path="/com/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

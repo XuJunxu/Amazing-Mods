@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,26" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disabled,5,selectedDisabled" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="v607b" fileName="images/c1.png" xy="0,0" size="101,26">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="v607c" fileName="images/c3.png" xy="0,0" size="101,26">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3" name="n3" src="v607d" fileName="images/c2.png" xy="0,0" size="101,26">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4" name="title" xy="2,1" size="81,25" fontSize="12" color="#d1c0a5" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="212">
+      <gearColor controller="button" pages="0,4,5" values="#d1c0a5,#000000|#787b7b,#000000|#787b7b,#000000" default="#bdbdbd,#000000"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

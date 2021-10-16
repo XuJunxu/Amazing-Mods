@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="10,19" extention="Label">
+  <displayList>
+    <text id="n0_8fu1" name="title" xy="0,0" size="10,19" fontSize="12" color="#514030" vAlign="middle" leading="0" ubb="true" autoSize="none" singleLine="true" autoClearText="true" text="">
+      <relation target="" sidePair="width-width,middle-middle,left-left"/>
+    </text>
+  </displayList>
+</component>

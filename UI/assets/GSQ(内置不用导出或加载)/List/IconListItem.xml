@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="88,20" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="kjtf4s" fileName="images/bg_xuetiao13.png" xy="0,0" size="88,20">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1" name="n1" src="kjtf4r" fileName="images/bg_xuetiao12.png" xy="0,0" size="88,20" aspect="true">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2" name="title" xy="21,0" size="67,20" fontSize="12" color="#2b231b" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <gearColor controller="button" pages="0,1,3" values="#2b231b,#000000|#ffffff,#000000|#ffffff,#000000" default="#bdbdbd,#000000"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <loader id="n3" name="icon" xy="0,0" size="20,20" align="center" vAlign="middle"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

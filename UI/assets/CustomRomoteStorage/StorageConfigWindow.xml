@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="380,450">
+  <displayList>
+    <component id="n0_q9cp" name="frame" src="lrz6n" fileName="com/WindowFrame0.xml" xy="0,0" size="380,450">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="乾坤界物品设置"/>
+    </component>
+    <component id="n17_lrz6" name="title" src="lrz6m" fileName="com/FrameTitle1.xml" xy="107,24" size="165,29">
+      <relation target="" sidePair="center-center,top-top"/>
+      <Label title="自定义乾坤界1"/>
+    </component>
+    <component id="n8_q9cp" name="tips" src="jl7l0" fileName="com/TipsLabel.xml" xy="12,18" size="40,20">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <list id="n7_q9cp" name="list" xy="20,96" size="345,296" selectionMode="none" overflow="scroll" scrollBarFlags="4" lineGap="4" defaultItem="ui://k7q2d9teq9cpj" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item title="12345689"/>
+      <item title="物品物品物品物品物品物品物品"/>
+      <item title="物品"/>
+      <item title="物品物品"/>
+      <item title="物品物品物品"/>
+      <item title="物品"/>
+      <item title="物品"/>
+      <item title="物品"/>
+      <item title="物品"/>
+      <item title="物品"/>
+      <item title="物品"/>
+      <item title="物品"/>
+    </list>
+    <component id="n1_q9cp" name="btn1" src="v6070" fileName="Button/Button.xml" pkg="ncbwb41m" xy="90,405" size="85,25">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="确定1"/>
+    </component>
+    <component id="n2_q9cp" name="btn2" src="v6070" fileName="Button/Button.xml" pkg="ncbwb41m" xy="205,405" size="85,25">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="取消1"/>
+    </component>
+    <component id="n9_jrjp" name="allselected" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="20,66" size="58,19">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button title="全选1"/>
+    </component>
+    <component id="n16_j3rx" name="input" src="v6072k" fileName="Input/TextInput.xml" pkg="ncbwb41m" xy="239,66" size="71,20">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n13_jrjp" name="search" src="jrjpk" fileName="com/Button2.xml" xy="310,63" size="50,25">
+      <relation target="n16_j3rx" sidePair="middle-middle,left-right"/>
+      <Button title="搜索1"/>
+    </component>
+    <text id="n14_r0fl" name="sum" xy="104,67" size="66,19" fontSize="12" color="#514030" align="center" autoSize="none" singleLine="true" autoClearText="true" text="999/999">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <image id="n3_q9cp" name="n3" src="kjtf46" fileName="images/bg_line01.png" pkg="ncbwb41m" xy="10,93" size="360,2">
+      <relation target="" sidePair="width-width,top-top"/>
+    </image>
+    <image id="n4_q9cp" name="n4" src="kjtf46" fileName="images/bg_line01.png" pkg="ncbwb41m" xy="10,393" size="360,2">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+  </displayList>
+</component>

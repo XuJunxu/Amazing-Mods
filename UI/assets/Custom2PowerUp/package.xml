@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="dcxspn3i" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="m9r50" name="Custom2ConfigWindow.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="Custom2PowerUp"/>
+</packageDescription>

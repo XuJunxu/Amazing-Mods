@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="tqvfz867" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="cz1g0" name="CustomYouPowerUp.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="CustomYouPowerUp"/>
+</packageDescription>

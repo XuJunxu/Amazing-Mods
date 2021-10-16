@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="266,200">
+  <displayList>
+    <component id="n0_cz1g" name="frame" src="lrz6j" fileName="com/WindowFrame0.xml" xy="3,0" size="260,200">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n16_lrz6" name="title" src="lrz6i" fileName="com/FrameTitle1.xml" xy="50,23" size="165,29">
+      <relation target="" sidePair="center-center,top-top"/>
+      <Label title="标题标题标题1"/>
+    </component>
+    <component id="n13_cz1g" name="tips" src="cz1ga" fileName="com/TipsLabel.xml" xy="15,18" size="40,20">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <list id="n1_cz1g" name="list" xy="18,61" size="230,81" selectionMode="none" overflow="scroll" scrollBarFlags="4" lineGap="4" defaultItem="ui://b7phkfl5cz1g9" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item title="4561311"/>
+      <item title="名字名字名字名字"/>
+      <item title="名字名字名字"/>
+      <item title="名字名字"/>
+      <item title="名字"/>
+      <item title="名字"/>
+      <item title="名字"/>
+      <item title="名字"/>
+    </list>
+    <component id="n5_cz1g" name="btn1" src="v6070" fileName="Button/Button.xml" pkg="ncbwb41m" xy="33,155" size="85,25">
+      <relation target="n0_cz1g" sidePair="center-center,bottom-bottom"/>
+      <Button title="确定1"/>
+    </component>
+    <component id="n6_cz1g" name="btn2" src="v6070" fileName="Button/Button.xml" pkg="ncbwb41m" xy="148,155" size="85,25">
+      <relation target="n0_cz1g" sidePair="center-center,bottom-bottom"/>
+      <Button title="取消1"/>
+    </component>
+    <image id="n10_cz1g" name="n10" src="kjtf46" fileName="images/bg_line01.png" pkg="ncbwb41m" xy="13,58" size="240,2">
+      <relation target="" sidePair="width-width,top-top"/>
+    </image>
+    <image id="n11_cz1g" name="n11" src="kjtf46" fileName="images/bg_line01.png" pkg="ncbwb41m" xy="13,143" size="240,2">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+  </displayList>
+</component>

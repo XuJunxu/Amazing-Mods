@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="56,71" extention="Label">
+  <displayList>
+    <loader id="n0_hufs" name="icon" xy="3,0" size="50,50" align="center" vAlign="middle" fill="scale"/>
+    <image id="n7_jczi" name="n7" src="dhe4a3" fileName="images/bg_ban032.png" pkg="ncbwb41m" xy="0,33" size="56,17" alpha="0.64" color="#444444"/>
+    <text id="n2_hufs" name="title" xy="0,0" size="56,50" fontSize="10" color="#ffffff" align="center" vAlign="bottom" autoSize="shrink" strokeColor="#444444" autoClearText="true" text="分影遁空符"/>
+    <component id="n6_j3rx" name="input" src="v6072k" fileName="Input/TextInput.xml" pkg="ncbwb41m" xy="8,51" size="40,20">
+      <Label prompt="0" maxLength="2" restrict="[0-9]"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="130,29" extention="Label">
+  <displayList>
+    <image id="n2_fd73" name="n2" src="kjtf47" fileName="images/bg_title001.png" pkg="ncbwb41m" xy="0,0" size="130,29" restrictSize="0,240,0,0">
+      <relation target="" sidePair="width-width,center-center"/>
+    </image>
+    <text id="n3_fd73" name="title" xy="0,4" size="130,22" fontSize="14" color="#514030" align="center" vAlign="middle" autoSize="shrink" singleLine="true" autoClearText="true" text="标题标题">
+      <relation target="" sidePair="width-width,center-center"/>
+    </text>
+  </displayList>
+</component>

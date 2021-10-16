@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="330,445">
+  <controller name="yunyang" pages="0,hide,1,show" selected="1"/>
+  <displayList>
+    <component id="n33_s426" name="frame" src="lrz6o" fileName="com/WindowFrame0.xml" xy="0,0" size="330,445">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n37_lrz6" name="title" src="s426c" fileName="com/FrameTitle1.xml" xy="82,24" size="165,29">
+      <relation target="" sidePair="center-center,top-top"/>
+      <Label title="自动搬运设置1"/>
+    </component>
+    <component id="n42_lrz6" name="tips" src="lcvj5" fileName="com/TipsLabel.xml" xy="12,18">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <image id="n41_lrz6" name="n41" src="zg5x9d" fileName="images/bg_ban0013.png" pkg="ncbwb41m" xy="20,64" size="290,78">
+      <relation target="" sidePair="width-width,top-top"/>
+    </image>
+    <component id="n25_jrjp" name="check1" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="28,70" size="83,19">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button title="自动搜身1" titleFontSize="13"/>
+    </component>
+    <component id="n27_jrjp" name="check2" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="166,70" size="83,19">
+      <relation target="" sidePair="left-center,top-top"/>
+      <Button title="自动屠宰1" titleFontSize="13"/>
+    </component>
+    <component id="n26_jrjp" name="check3" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="28,94" size="109,19">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button title="灵植成熟提醒1" titleFontSize="13"/>
+    </component>
+    <component id="n28_jrjp" name="check4" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="166,94" size="147,19">
+      <relation target="" sidePair="left-center,top-top"/>
+      <Button title="自动领取势力点物资1" titleFontSize="13"/>
+    </component>
+    <component id="n43_oem0" name="check5" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="28,118" size="109,19">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button title="淬体自动翻卡1" titleFontSize="13"/>
+    </component>
+    <component id="n44_oem0" name="check6" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="166,118" size="83,19">
+      <relation target="" sidePair="left-center,top-top"/>
+      <Button title="自动蕴养1" titleFontSize="13"/>
+    </component>
+    <list id="n1_8fu1" name="list" xy="20,150" size="290,240" selectionMode="none" overflow="scroll" scrollBarFlags="4" lineGap="2" defaultItem="ui://ftqs8ulal7sz6" vAlign="middle" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item title="仓库仓库仓库仓库仓库仓库仓库"/>
+      <item title="仓库仓库仓库仓库"/>
+      <item title="仓库仓库仓库仓库"/>
+      <item title="仓库仓库仓库仓库"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n38_lrz6" name="btn1" src="v6070" fileName="Button/Button.xml" pkg="ncbwb41m" xy="60,400" size="85,25">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="确定1"/>
+    </component>
+    <component id="n39_lrz6" name="btn2" src="v6070" fileName="Button/Button.xml" pkg="ncbwb41m" xy="175,400" size="85,25">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="取消1"/>
+    </component>
+    <component id="n45_s3n6" name="SetYunYangWindow" src="s3n6p" fileName="SetYunYangWindow.xml" xy="336,64">
+      <gearDisplay controller="yunyang" pages="1"/>
+    </component>
+  </displayList>
+</component>

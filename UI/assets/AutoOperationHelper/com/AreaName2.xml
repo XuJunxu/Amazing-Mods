@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="54,19" extention="Label">
+  <displayList>
+    <image id="n1_fd73" name="n1" src="pvoaae" fileName="images/bg_ban023.png" pkg="ncbwb41m" xy="0,0" size="54,19">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n0_8fu1" name="title" xy="13,0" size="28,19" fontSize="12" color="#514030" align="center" vAlign="middle" leading="0" ubb="true" singleLine="true" autoClearText="true" text="仓库">
+      <relation target="" sidePair=""/>
+    </text>
+  </displayList>
+  <relation target="n0_8fu1" sidePair="width-width,height-height"/>
+</component>

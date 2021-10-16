@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="308,280">
+  <displayList>
+    <component id="n33_s426" name="frame" src="lrz6o" fileName="com/WindowFrame0.xml" xy="0,0" size="308,280">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <list id="n45_s3n6" name="list" xy="12,18" size="283,250" selectionMode="none" overflow="scroll" scrollBarFlags="160" scrollBar="hidden" defaultItem="ui://ftqs8ulas3n6q">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n47_s3n6" name="n47" src="dhe49y" fileName="images/bg_ban025.png" pkg="ncbwb41m" xy="-18,35" size="30,10">
+      <relation target="" sidePair="right-left,top-top"/>
+    </image>
+    <image id="n48_s3n6" name="n48" src="dhe49y" fileName="images/bg_ban025.png" pkg="ncbwb41m" xy="-18,243" size="30,10">
+      <relation target="" sidePair="right-left,bottom-bottom"/>
+    </image>
+  </displayList>
+</component>

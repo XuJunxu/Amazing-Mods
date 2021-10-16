@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,250" designImageAlpha="100">
+  <displayList>
+    <component id="n0_m9r5" name="frame" src="v6073f" fileName="Window/WindowFrame.xml" pkg="ncbwb41m" xy="0,0" size="300,250">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="标题"/>
+    </component>
+    <text id="n4_m9r5" name="n1" xy="89,85" size="87,19" fontSize="12" vAlign="middle" leading="0" autoSize="none" text="幽淬成功率(%)">
+      <relation target="n0_m9r5" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n2_m9r5" name="input1" src="v6072l" fileName="Input/NumericInput.xml" pkg="ncbwb41m" xy="176,85" size="40,20" tooltips="设置值范围：0--100&#xD;设置值=0时，使用游戏原有的成功率&#xD;设置值>=100时，幽淬成功率为100%&#xD;">
+      <relation target="n4_m9r5" sidePair="center-center,middle-middle"/>
+      <Label title="999" prompt="100" maxLength="3" restrict="[0-9]"/>
+    </component>
+    <text id="n5_m9r5" name="n2" xy="77,124" size="106,19" fontSize="12" vAlign="middle" leading="0" autoSize="none" text="幽淬一次增加品阶">
+      <relation target="n0_m9r5" sidePair="center-center,middle-middle"/>
+    </text>
+    <component id="n3_m9r5" name="input2" src="v6072l" fileName="Input/NumericInput.xml" pkg="ncbwb41m" xy="183,124" size="40,20" tooltips="设置值范围：1--12&#xD;幽淬后的品阶不会超过12">
+      <relation target="n5_m9r5" sidePair="center-center,middle-middle"/>
+      <Label title="99" prompt="1" maxLength="2" restrict="[0-9]"/>
+    </component>
+    <component id="n8_m9r5" name="bnt1" src="v6070" fileName="Button/Button.xml" pkg="ncbwb41m" xy="52,199" size="85,30">
+      <relation target="n0_m9r5" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n9_m9r5" name="bnt2" src="v6070" fileName="Button/Button.xml" pkg="ncbwb41m" xy="164,199" size="85,30">
+      <relation target="n0_m9r5" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <text id="n31_n58a" name="n31" xy="81,204" size="29,19" fontSize="12" color="#deedc7" align="center" vAlign="middle" strokeColor="#2c3936" text="确定">
+      <relation target="n8_m9r5" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n32_n58a" name="n32" xy="192,204" size="29,19" fontSize="12" color="#deedc7" align="center" vAlign="middle" strokeColor="#2c3936" text="取消">
+      <relation target="n9_m9r5" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n33_cz1g" name="n33" src="kjtf46" fileName="images/bg_line01.png" pkg="ncbwb41m" xy="0,183" size="300,2">
+      <relation target="n0_m9r5" sidePair="width-width,bottom-bottom"/>
+    </image>
+  </displayList>
+</component>

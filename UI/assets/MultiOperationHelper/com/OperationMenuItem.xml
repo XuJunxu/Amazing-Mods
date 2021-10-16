@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="52,52" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="bg" pages="0,operate,1,magic" selected="0"/>
+  <displayList>
+    <image id="n11_j1lr" name="n11" src="mg1dap" fileName="images/bg_ban018.png" pkg="ncbwb41m" xy="0,0" size="52,52">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearColor controller="button" pages="1,2" values="#c8c8c8|#e1e1e1" default="#ffffff"/>
+      <gearDisplay2 controller="bg" pages="0" condition="0"/>
+    </image>
+    <image id="n10_q9cp" name="n10" src="v9j6ai" fileName="images/button_bt16.png" pkg="ncbwb41m" xy="0,0" size="52,52">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <gearColor controller="button" pages="1,2" values="#c8c8c8|#e1e1e1" default="#ffffff"/>
+      <gearDisplay2 controller="bg" pages="1" condition="0"/>
+    </image>
+    <loader id="n4" name="icon" xy="6,6" size="40,40" aspect="true" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="bg" pages=""/>
+      <gearXY controller="bg" pages="0,1" values="6,6|5,5"/>
+      <gearSize controller="bg" pages="1" values="42,42,1,1" default="40,40,1,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n8_e4d4" name="title" xy="0,0" size="52,53" fontSize="12" color="#ffffff" align="center" vAlign="bottom" leading="0" autoSize="shrink" bold="true" strokeColor="#483721" autoClearText="true" text="文字文字">
+      <relation target="" sidePair="width-width,bottom-bottom,center-center"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

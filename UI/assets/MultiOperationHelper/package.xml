@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="b7phkfl5">
+  <resources>
+    <component id="hufs0" name="MultiFuPainterWindow.xml" path="/" exported="true"/>
+    <component id="hufs1" name="FuPainterItem.xml" path="/com/" exported="true"/>
+    <component id="hufs4" name="OperationMsgWindow.xml" path="/" exported="true"/>
+    <component id="cz1g8" name="MultiSelectWindow.xml" path="/" exported="true"/>
+    <component id="cz1g9" name="InputListItem.xml" path="/com/" exported="true"/>
+    <component id="cz1ga" name="TipsLabel.xml" path="/com/" exported="true"/>
+    <component id="r5zxf" name="OperationMenuWindow.xml" path="/" exported="true"/>
+    <component id="q9cph" name="OperationMenuItem.xml" path="/com/" exported="true"/>
+    <component id="lrz6i" name="FrameTitle1.xml" path="/com/" exported="true"/>
+    <component id="lrz6j" name="WindowFrame0.xml" path="/com/" exported="true"/>
+  </resources>
+  <publish name="MultiOperationHelper"/>
+</packageDescription>

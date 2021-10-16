@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,340">
+  <displayList>
+    <component id="n0_8fu1" name="frame" src="v6073f" fileName="Window/WindowFrame.xml" pkg="ncbwb41m" xy="0,0" size="300,340">
+      <Label title="屏蔽弹窗设置"/>
+    </component>
+    <list id="n1_8fu1" name="list" xy="39,66" size="240,209" layout="flow_hz" selectionMode="multipleSingleClick" overflow="scroll" scrollBarFlags="164" lineGap="8" colGap="10" lineItemCount="2" defaultItem="ui://9ivyhzmntwih2" align="center" vAlign="middle" autoClearItems="true">
+      <relation target="n0_8fu1" sidePair="width-width,height-height"/>
+      <relation target="n0_8fu1" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n2_8fu1" name="btn1" src="v6070" fileName="Button/Button.xml" pkg="ncbwb41m" xy="55,290" size="85,25">
+      <relation target="n0_8fu1" sidePair="center-center,bottom-bottom"/>
+      <Button title="确定"/>
+    </component>
+    <component id="n4_8fu1" name="btn2" src="v6070" fileName="Button/Button.xml" pkg="ncbwb41m" xy="160,290" size="85,25">
+      <relation target="n0_8fu1" sidePair="center-center,bottom-bottom"/>
+      <Button title="取消"/>
+    </component>
+    <image id="n6_8fu1" name="n6" src="kjtf46" fileName="images/bg_line01.png" pkg="ncbwb41m" xy="0,63" size="300,2">
+      <relation target="n0_8fu1" sidePair="width-width,top-top"/>
+    </image>
+    <image id="n7_8fu1" name="n7" src="kjtf46" fileName="images/bg_line01.png" pkg="ncbwb41m" xy="0,276" size="300,2">
+      <relation target="n0_8fu1" sidePair="width-width,bottom-bottom"/>
+    </image>
+  </displayList>
+</component>

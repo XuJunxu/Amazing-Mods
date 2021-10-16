@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="340,238">
+  <displayList>
+    <component id="n12_r5zx" name="frame" src="lrz6j" fileName="com/WindowFrame0.xml" xy="0,0" size="340,238">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="标题标题标题标题标题"/>
+    </component>
+    <component id="n13_lrz6" name="title" src="lrz6i" fileName="com/FrameTitle1.xml" xy="101,23" size="138,29">
+      <relation target="" sidePair="center-center,top-top"/>
+      <Label title="标题标题1"/>
+    </component>
+    <richtext id="n4_hufs" name="content" xy="35,80" size="270,58" fontSize="14" ubb="true" autoSize="height" autoClearText="true" text="消息消息消息消息息消息消息消息消息消息消息息消息消息消息息消息消息消息息消息消息消息息消息消息"/>
+    <component id="n5_hufs" name="btn1" src="v6070" fileName="Button/Button.xml" pkg="ncbwb41m" xy="70,193" size="85,25">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="确定1"/>
+    </component>
+    <component id="n6_hufs" name="btn2" src="v6070" fileName="Button/Button.xml" pkg="ncbwb41m" xy="185,193" size="85,25">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="取消1"/>
+    </component>
+    <image id="n14_lrz6" name="n14" src="kjtf46" fileName="images/bg_line01.png" pkg="ncbwb41m" xy="10,58" size="320,2">
+      <relation target="" sidePair="width-width,top-top"/>
+    </image>
+    <image id="n10_hufs" name="n10" src="kjtf46" fileName="images/bg_line01.png" pkg="ncbwb41m" xy="10,181" size="320,2">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+  </displayList>
+  <relation target="n4_hufs" sidePair="width-width,height-height"/>
+</component>

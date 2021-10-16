@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,20" extention="Label">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <controller name="grayed" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="kjtf7l" fileName="images/other_groove01.png" xy="0,0" size="60,20">
+      <gearLook controller="grayed" pages="1" values="1,0,1,1" default="1,0,0,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <graph id="n3" name="holder" xy="0,0" size="60,20" type="rect" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n1" name="title" xy="1,1" size="58,18" input="true" fontSize="12" color="#d1c0a5" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="aaa">
+      <gearColor controller="grayed" pages="0,1" values="#d1c0a5,#000000|#787b7b,#000000"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+</component>

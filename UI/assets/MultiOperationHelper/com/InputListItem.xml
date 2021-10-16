@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="58,20" extention="Label">
+  <displayList>
+    <text id="n3_cz1g" name="title" xy="1,1" size="10,19" fontSize="12" color="#514030" vAlign="middle" leading="0" ubb="true" singleLine="true" autoClearText="true" text="">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n6_j3rx" name="input" src="v6072k" fileName="Input/TextInput.xml" pkg="ncbwb41m" xy="13,0" size="44,20">
+      <relation target="n3_cz1g" sidePair="left-right"/>
+      <Label prompt="0" maxLength="4" restrict="[0-9]"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="26,26" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disabled,5,selectedDisabled" selected="0"/>
+  <displayList>
+    <image id="n0_fd73" name="n0" src="fd730" fileName="images/close_btn_1.png" xy="-54,-6" size="108,31">
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="n1_fd73" name="n1" src="fd731" fileName="images/close_btn_2.png" xy="0,0" size="26,26" aspect="true">
+      <gearLook controller="button" pages="4,5" values="1,0,1,0|1,0,1,0" default="1,0,0,1"/>
+      <gearColor controller="button" pages="0,1,2" values="#ffffff|#c8c8c8|#e1e1e1" default="#ffffff"/>
+      <relation target="" sidePair=""/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

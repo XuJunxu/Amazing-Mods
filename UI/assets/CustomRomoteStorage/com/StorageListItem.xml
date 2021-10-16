@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="183,26" extention="Label">
+  <displayList>
+    <component id="n7_jrjp" name="title" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="1,4" size="51,19">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="物品"/>
+    </component>
+    <component id="n8_v6le" name="type" src="v6lel" fileName="com/ComboBox.xml" xy="53,0">
+      <relation target="n7_jrjp" sidePair="middle-middle,left-right"/>
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n9_losd" name="common" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="131,4" size="51,19">
+      <relation target="n8_v6le" sidePair="middle-middle,left-right"/>
+      <Button title="常用"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="283,50" extention="Label">
+  <displayList>
+    <image id="n17_lrz6" name="n17" src="v9j6ai" fileName="images/button_bt16.png" pkg="ncbwb41m" xy="0,0" size="283,50">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n12_fd73" name="title" src="ixfwr" fileName="com/PlantName.xml" xy="7,4">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n7_l7sz" name="born" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="7,26" size="51,19">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button title="相生"/>
+    </component>
+    <component id="n8_l7sz" name="contrary" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="62,26" size="51,19">
+      <relation target="" sidePair="bottom-bottom"/>
+      <relation target="n7_l7sz" sidePair="left-right"/>
+      <Button title="相克"/>
+    </component>
+    <component id="n9_l7sz" name="same" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="117,26" size="51,19">
+      <relation target="" sidePair="bottom-bottom"/>
+      <relation target="n8_l7sz" sidePair="left-right"/>
+      <Button title="相同"/>
+    </component>
+    <component id="n18_s3n6" name="none" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="172,26" size="51,19">
+      <relation target="" sidePair="bottom-bottom"/>
+      <relation target="n9_l7sz" sidePair="left-right"/>
+      <Button title="无关"/>
+    </component>
+    <component id="n22_s3n6" name="outer" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="227,26" size="51,19">
+      <relation target="" sidePair="bottom-bottom"/>
+      <relation target="n18_s3n6" sidePair="left-right"/>
+      <Button title="外门"/>
+    </component>
+  </displayList>
+</component>

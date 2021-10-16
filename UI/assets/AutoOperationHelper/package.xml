@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ftqs8ula">
+  <resources>
+    <component id="8fu10" name="AreaListItem.xml" path="/com/" exported="true"/>
+    <component id="8fu12" name="AreaName.xml" path="/com/" exported="true"/>
+    <component id="8fu13" name="SetAutoOperationWindow.xml" path="/" exported="true"/>
+    <component id="lcvj5" name="TipsLabel.xml" path="/com/" exported="true"/>
+    <component id="l7sz6" name="AreaListItem2.xml" path="/com/" exported="true"/>
+    <component id="fd737" name="ComboBox.xml" path="/com/" exported="true"/>
+    <component id="fd738" name="AreaName2.xml" path="/com/" exported="true"/>
+    <component id="fd739" name="ComboBox2.xml" path="/com/" exported="true"/>
+    <component id="s426c" name="FrameTitle1.xml" path="/com/" exported="true"/>
+    <component id="lrz6o" name="WindowFrame0.xml" path="/com/" exported="true"/>
+    <component id="s3n6p" name="SetYunYangWindow.xml" path="/" exported="true"/>
+    <component id="s3n6q" name="LingPlantItem.xml" path="/com/" exported="true"/>
+    <component id="ixfwr" name="PlantName.xml" path="/com/" exported="true"/>
+  </resources>
+  <publish name="AutoOperationHelper"/>
+</packageDescription>

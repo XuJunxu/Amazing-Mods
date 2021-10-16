@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="335,334" extention="Label" initName="frame">
+  <displayList>
+    <image id="n31_fd73" name="n0" src="hq69ax" fileName="images/bg_ban002.png" pkg="ncbwb41m" xy="-23,-27" size="451,366">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <graph id="n2" name="dragArea" xy="1,1" size="333,331">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n4" name="contentArea" xy="12,65" size="312,258">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n32_fd73" name="closeButton" src="fd734" fileName="com/CloseButton3.xml" xy="314,-5" size="42,42" aspect="true">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n25_fd73" name="tips" src="fd73a" fileName="com/TipsLabel.xml" xy="284,4">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n33_s426" name="title" src="fd73e" fileName="com/FrameTitle1.xml" xy="102,35" size="130,29">
+      <relation target="" sidePair="center-center"/>
+      <Label title="标题标题"/>
+    </component>
+    <component id="n34_s426" name="btn1" src="v6070" fileName="Button/Button.xml" pkg="ncbwb41m" xy="125,292" size="85,25">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="确定"/>
+    </component>
+  </displayList>
+</component>

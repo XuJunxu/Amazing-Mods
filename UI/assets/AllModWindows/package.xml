@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="39jfl1ah">
+  <resources>
+    <image id="fd730" name="close_btn_1.png" path="/images/" exported="true"/>
+    <image id="fd731" name="close_btn_2.png" path="/images/" exported="true"/>
+    <image id="fd732" name="close_btn_3.png" path="/images/" exported="true"/>
+    <component id="fd733" name="CloseButton2.xml" path="/com/" exported="true"/>
+    <component id="fd734" name="CloseButton3.xml" path="/com/" exported="true"/>
+    <component id="fd735" name="WindowFrame1.xml" path="/windows/" exported="true"/>
+    <component id="fd736" name="CloseButton1.xml" path="/com/" exported="true"/>
+    <image id="fd737" name="bg_tips_1.png" path="/images/" exported="true"/>
+    <image id="fd738" name="bg_line.png" path="/images/" exported="true" scale="9grid" scale9grid="17,7,4,-1"/>
+    <image id="fd739" name="bg_tips_2.png" path="/images/" exported="true" scale9grid="9,12,18,24"/>
+    <component id="fd73a" name="TipsLabel.xml" path="/com/" exported="true"/>
+    <component id="fd73b" name="WindowFrame2.xml" path="/windows/" exported="true"/>
+    <component id="fd73c" name="WindowFrame3.xml" path="/windows/" exported="true"/>
+    <component id="fd73d" name="WindowFrame4.xml" path="/windows/" exported="true"/>
+    <component id="fd73e" name="FrameTitle1.xml" path="/com/" exported="true"/>
+    <component id="fd73f" name="FrameTitle2.xml" path="/com/" exported="true"/>
+    <image id="s426g" name="bg_ban002.png" path="/images/" exported="true" scale="9grid" scale9grid="98,136,20,12"/>
+    <component id="lrz6h" name="WindowFrame0.xml" path="/windows/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

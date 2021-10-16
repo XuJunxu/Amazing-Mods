@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="335,334" extention="Label" initName="frame">
+  <displayList>
+    <image id="n7_zg5x" name="n7" src="kjtf3p" fileName="images/bg_ban008.png" xy="-21,-3" size="375,340">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <graph id="n2" name="dragArea" xy="0,1" size="332,332">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n4" name="contentArea" xy="4,49" size="327,270">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n5_e4d4" name="n5" src="v6073g" fileName="Window/WindowCloseButton.xml" xy="285,16">
+      <relation target="" sidePair="top-top,right-right"/>
+    </component>
+    <image id="n6_is9d" name="n6" src="kjtf47" fileName="images/bg_title001.png" xy="102,21" size="130,29" restrictSize="0,200,0,0">
+      <relation target="" sidePair="width-width,center-center"/>
+    </image>
+    <text id="n3" name="title" xy="101,25" size="129,20" fontSize="14" color="#514030" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="啊啊啊啊">
+      <relation target="" sidePair="center-center,width-width"/>
+    </text>
+  </displayList>
+</component>

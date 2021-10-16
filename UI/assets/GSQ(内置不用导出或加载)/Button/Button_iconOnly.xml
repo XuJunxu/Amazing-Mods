@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="30,30" pivot="0.5,0.5" opaque="false" extention="Button" bgColorEnabled="true" bgColor="#cccccc">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disabled,5,selectedDisabled" selected="0"/>
+  <displayList>
+    <loader id="n6_wf5i" name="icon" xy="0,0" size="30,30" align="center" vAlign="middle" fill="scale">
+      <gearLook controller="button" pages="3,4,5" values="1,0,0,1|1,0,1,1|1,0,1,1" default="1,0,0,1"/>
+      <gearColor controller="button" pages="1,2,3" values="#d0d0d0|#c2c2c2|#d2d2d2" default="#ffffff"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+  <Button/>
+</component>

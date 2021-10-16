@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="245,50" extention="Label">
+  <displayList>
+    <image id="n17_lrz6" name="n17" src="v9j6ai" fileName="images/button_bt16.png" pkg="ncbwb41m" xy="0,0" size="245,50">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n12_fd73" name="title" src="fd738" fileName="com/AreaName2.xml" xy="7,4">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <text id="n15_fd73" name="label" xy="167,4" size="40,19" fontSize="12" color="#514030" align="center" vAlign="middle" leading="0" ubb="true" singleLine="true" autoClearText="true" text="优先级">
+      <relation target="" sidePair="right-right,top-top"/>
+    </text>
+    <component id="n13_fd73" name="priority" src="fd739" fileName="com/ComboBox2.xml" xy="207,4" size="30,19">
+      <relation target="" sidePair="right-right,top-top"/>
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n7_l7sz" name="corpse" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="7,26" size="51,19">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button title="尸体"/>
+    </component>
+    <component id="n8_l7sz" name="dying" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="62,26" size="51,19">
+      <relation target="" sidePair="bottom-bottom"/>
+      <relation target="n7_l7sz" sidePair="left-right"/>
+      <Button title="弥留"/>
+    </component>
+    <component id="n9_l7sz" name="unconscious" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="117,26" size="51,19">
+      <relation target="" sidePair="bottom-bottom"/>
+      <relation target="n8_l7sz" sidePair="left-right"/>
+      <Button title="昏迷"/>
+    </component>
+  </displayList>
+</component>

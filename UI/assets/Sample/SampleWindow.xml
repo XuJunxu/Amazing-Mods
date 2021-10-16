@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="423,362">
+  <displayList>
+    <component id="n0_v607" name="frame" src="v6073f" fileName="Window/WindowFrame.xml" pkg="ncbwb41m" xy="0,0" size="423,362">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n1_v607" name="bnt_1" src="v6070" fileName="Button/Button.xml" pkg="ncbwb41m" xy="18,31">
+      <Button title="按钮1"/>
+    </component>
+    <component id="n2_v607" name="bnt_2" src="v9j6ah" fileName="Button/Button2.xml" pkg="ncbwb41m" xy="19,59" size="85,27"/>
+    <text id="n4_gyq1" name="label_1" xy="131,56" size="181,19" fontSize="12" color="#2b231b" ubb="true" autoSize="none" text="这是一个Label"/>
+    <text id="n5_e4d4" name="label_2" xy="130,79" size="181,23" fontSize="12" color="#2b231b" ubb="true" autoSize="none" text="这是一个Label"/>
+    <component id="n13_e4d4" name="bnt_3" src="v6075" fileName="Button/IconButton.xml" pkg="ncbwb41m" xy="106,173" size="47,41">
+      <Button title="按钮3"/>
+    </component>
+    <list id="n17_e4d4" name="list" xy="175,116" size="232,216" layout="flow_hz" overflow="scroll" scroll="both" lineGap="4" colGap="2" defaultItem="ui://ncbwb41me4d43h" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n18_e4d4" name="loader" xy="18,220" size="137,121" fill="scaleMatchHeight"/>
+    <component id="n19_e4d4" name="n19" src="v6072k" fileName="Input/TextInput.xml" pkg="ncbwb41m" xy="320,84" size="92,23">
+      <Label prompt="输入框"/>
+    </component>
+    <component id="n20_is9d" name="n20" src="v6078" fileName="Checkbox/Checkbox.xml" pkg="ncbwb41m" xy="27,89" size="58,19">
+      <Button title="啊啊啊"/>
+    </component>
+    <component id="n21_is9d" name="n21" src="v607a" fileName="ComboBox/ComboBox.xml" pkg="ncbwb41m" xy="18,110">
+      <ComboBox visibleItemCount="10">
+        <item title="a"/>
+        <item title="b"/>
+      </ComboBox>
+    </component>
+    <component id="n22_is9d" name="progressbar_1" src="v6072u" fileName="ProgressBar/ProgressBar.xml" pkg="ncbwb41m" xy="19,140" size="126,14">
+      <ProgressBar value="82" max="100"/>
+    </component>
+    <component id="n23_dhe4" name="n23" src="pvoaaf" fileName="Slider/SliderH.xml" pkg="ncbwb41m" xy="17,153" size="126,21">
+      <Slider value="60" max="100"/>
+    </component>
+    <component id="n25_dhe4" name="n25" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="32,176"/>
+  </displayList>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="175,26" extention="Label">
+  <displayList>
+    <component id="n4_8fu1" name="name" src="8fu12" fileName="com/AreaName.xml" xy="160,4" size="10,19">
+      <relation target="" sidePair="left-left,rightext-right"/>
+      <Label title="仓库"/>
+    </component>
+    <component id="n5_jrjp" name="state" src="v607a" fileName="ComboBox/ComboBox.xml" pkg="ncbwb41m" xy="0,0">
+      <relation target="" sidePair="left-left"/>
+      <ComboBox visibleItemCount="10"/>
+    </component>
+    <component id="n6_jrjp" name="level" src="v607a" fileName="ComboBox/ComboBox.xml" pkg="ncbwb41m" xy="80,0">
+      <relation target="" sidePair="left-left"/>
+      <ComboBox visibleItemCount="10"/>
+    </component>
+  </displayList>
+</component>

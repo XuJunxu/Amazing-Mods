@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,250" designImageAlpha="100">
+  <displayList>
+    <component id="n0_m9r5" name="frame" src="v6073f" fileName="Window/WindowFrame.xml" pkg="ncbwb41m" xy="0,0" size="300,250"/>
+    <image id="n19_m9r5" name="n19" src="kjtf47" fileName="images/bg_title001.png" pkg="ncbwb41m" xy="81,21" size="140,30"/>
+    <text id="n20_m9r5" name="title" xy="81,26" size="140,20" fontSize="14" color="#fec585" align="center" vAlign="middle" autoSize="none" strokeColor="#444444" text="自定义幽淬灵淬"/>
+    <text id="n4_m9r5" name="n1" xy="31,63" size="56,34" fontSize="12" align="center" vAlign="middle" leading="0" autoSize="none" text="幽淬成功率(%)"/>
+    <component id="n2_m9r5" name="input_1" src="v6072l" fileName="Input/NumericInput.xml" pkg="ncbwb41m" xy="88,70" size="40,20" tooltips="设置值范围：0--100&#xD;设置值=0时，使用游戏原有的成功率&#xD;设置值>=100时，幽淬成功率为100%&#xD;">
+      <Label title="999" prompt="100" maxLength="3" restrict="[0-9]"/>
+    </component>
+    <text id="n5_m9r5" name="n2" xy="31,103" size="56,34" fontSize="12" align="center" vAlign="middle" leading="0" autoSize="none" text="幽淬一次增加品阶"/>
+    <component id="n3_m9r5" name="input_2" src="v6072l" fileName="Input/NumericInput.xml" pkg="ncbwb41m" xy="88,110" size="40,20" tooltips="设置值范围：1--12&#xD;幽淬后的品阶不会超过12">
+      <Label title="99" prompt="1" maxLength="2" restrict="[0-9]"/>
+    </component>
+    <text id="n26_h41s" name="n3" xy="31,151" size="56,19" fontSize="12" align="center" vAlign="middle" leading="0" autoSize="none" text="批量幽淬"/>
+    <component id="n17_m9r5" name="input_3" src="v6072l" fileName="Input/NumericInput.xml" pkg="ncbwb41m" xy="88,150" size="40,20" tooltips="设置值范围：1--99&#xD;消耗一个幽珀，同时幽淬堆叠的多个物品">
+      <Label title="99" prompt="1" maxLength="2" restrict="[0-9]"/>
+    </component>
+    <text id="n15_m9r5" name="n4" xy="174,63" size="56,34" fontSize="12" align="center" vAlign="middle" leading="0" autoSize="none" text="灵淬成功率(%)"/>
+    <component id="n18_m9r5" name="input_4" src="v6072l" fileName="Input/NumericInput.xml" pkg="ncbwb41m" xy="231,70" size="40,20" tooltips="设置值范围：0--100&#xD;设置值=0时，使用游戏原有的成功率&#xD;设置值>=100时，灵淬成功率为100%">
+      <Label title="999" prompt="100" maxLength="3" restrict="[0-9]"/>
+    </component>
+    <text id="n16_m9r5" name="n5" xy="174,103" size="56,34" fontSize="12" align="center" vAlign="middle" leading="0" autoSize="none" text="灵淬一次增加次数"/>
+    <component id="n28_h41s" name="input_5" src="v6072l" fileName="Input/NumericInput.xml" pkg="ncbwb41m" xy="231,110" size="40,20" tooltips="设置值范围：1--99">
+      <Label title="99" prompt="1" maxLength="2" restrict="[0-9]"/>
+    </component>
+    <text id="n27_h41s" name="n6" xy="174,151" size="56,19" fontSize="12" align="center" vAlign="middle" leading="0" autoSize="none" text="批量灵淬"/>
+    <component id="n29_h41s" name="input_6" src="v6072l" fileName="Input/NumericInput.xml" pkg="ncbwb41m" xy="231,150" size="40,20" tooltips="设置值范围：1--99&#xD;消耗一个灵珀，同时灵淬堆叠的多个物品">
+      <Label title="99" prompt="1" maxLength="2" restrict="[0-9]"/>
+    </component>
+    <component id="n8_m9r5" name="bnt_1" src="v6070" fileName="Button/Button.xml" pkg="ncbwb41m" xy="52,199" size="85,30"/>
+    <component id="n9_m9r5" name="bnt_2" src="v6070" fileName="Button/Button.xml" pkg="ncbwb41m" xy="164,199" size="85,30"/>
+    <image id="n30_h41s" name="n30" src="kjtf46" fileName="images/bg_line01.png" pkg="ncbwb41m" xy="153,56" size="130,3" rotation="90"/>
+    <text id="n31_n58a" name="n31" xy="81,204" size="29,19" fontSize="12" color="#deedc7" align="center" vAlign="middle" strokeColor="#2c3936" text="确定"/>
+    <text id="n32_n58a" name="n32" xy="192,204" size="29,19" fontSize="12" color="#deedc7" align="center" vAlign="middle" strokeColor="#2c3936" text="取消"/>
+  </displayList>
+</component>

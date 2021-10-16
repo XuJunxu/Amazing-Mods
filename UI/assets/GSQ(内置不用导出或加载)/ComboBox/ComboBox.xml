@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="76,26" extention="ComboBox">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,disabled,5,selectedDisabled" selected="2"/>
+  <displayList>
+    <image id="n1" name="n1" src="kjtf4c" fileName="images/bg_title006.png" xy="0,0" size="77,27">
+      <gearLook controller="button" pages="4,5" values="1,0,1,1|1,0,1,1" default="1,0,0,1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n5_dhe4" name="n5" src="kjtf5n" fileName="images/button_other01.png" xy="51,2" size="23,23" color="#ffe5a1">
+      <gearColor controller="button" pages="2" values="#ffe5a1" default="#ffffff"/>
+    </image>
+    <text id="n4" name="title" xy="2,2" size="54,24" fontSize="12" color="#bdbdbd" align="center" vAlign="middle" autoSize="none" singleLine="true" text="aas">
+      <gearColor controller="button" pages="0,4,5" values="#f7ebcb,#000000|#787b7b,#000000|#d1c0a5,#000000" default="#bdbdbd,#000000"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <ComboBox dropdown="ui://ncbwb41mv607f"/>
+</component>

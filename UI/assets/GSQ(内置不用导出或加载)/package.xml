@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ncbwb41m" hasFavorites="true">
+  <resources>
+    <component id="v6070" name="Button.xml" path="/Button/" exported="true"/>
+    <image id="v6071" name="b7.png" path="/images/" exported="true" scale="9grid" scale9grid="65,20,10,1"/>
+    <image id="v6072" name="b5.png" path="/images/" exported="true" scale="9grid" scale9grid="65,20,10,1"/>
+    <image id="v6073" name="b6.png" path="/images/" exported="true" scale="9grid" scale9grid="69,20,2,1"/>
+    <component id="v6074" name="FlatIconButton.xml" path="/Button/" exported="true"/>
+    <component id="v6075" name="IconButton.xml" path="/Button/" exported="true"/>
+    <component id="v6076" name="AutoSizeButton.xml" path="/Button/" exported="true"/>
+    <component id="v6077" name="LinkButton.xml" path="/Button/" exported="true"/>
+    <component id="v6078" name="Checkbox.xml" path="/Checkbox/" exported="true"/>
+    <image id="v6079" name="gou.png" path="/images/" exported="true" qualityOption="source"/>
+    <component id="v607a" name="ComboBox.xml" path="/ComboBox/" exported="true"/>
+    <image id="v607b" name="c1.png" path="/images/" exported="true" scale="9grid" scale9grid="7,3,66,22" qualityOption="source"/>
+    <image id="v607c" name="c3.png" path="/images/" exported="true" scale="9grid" scale9grid="7,3,66,22" qualityOption="source"/>
+    <image id="v607d" name="c2.png" path="/images/" exported="true" scale="9grid" scale9grid="7,3,66,22" qualityOption="source"/>
+    <component id="v607f" name="ComboBoxPopup.xml" path="/ComboBox/" exported="true"/>
+    <image id="v607g" name="background.png" path="/images/" exported="true" scale="9grid" scale9grid="193,114,10,9" gridTile="16" qualityOption="source"/>
+    <component id="v607h" name="ComboBoxItem.xml" path="/ComboBox/"/>
+    <component id="v607i" name="DropdownButton.xml" path="/ComboBox/" exported="true"/>
+    <image id="v607j" name="j1.png" path="/images/" exported="true" qualityOption="source"/>
+    <image id="v607k" name="j2.png" path="/images/" exported="true" qualityOption="source"/>
+    <image id="v607l" name="j3.png" path="/images/" exported="true" qualityOption="source"/>
+    <image id="v607m" name="j4.png" path="/images/" exported="true" qualityOption="source"/>
+    <image id="v607n" name="button_light.png" path="/images/" exported="true" scale="9grid" scale9grid="8,8,16,16"/>
+    <image id="v607v" name="f1.png" path="/images/" exported="true" scale="9grid" scale9grid="18,36,345,205" qualityOption="source"/>
+    <image id="v60718" name="HzSeperator2.png" path="/images/" exported="true"/>
+    <image id="v60721" name="f7.png" path="/images/" exported="true" qualityOption="source"/>
+    <image id="v60722" name="f6.png" path="/images/" exported="true" qualityOption="source"/>
+    <image id="v60723" name="f8.png" path="/images/" exported="true" qualityOption="source"/>
+    <image id="v6072b" name="i3.png" path="/images/" exported="true" qualityOption="source"/>
+    <image id="v6072c" name="i2.png" path="/images/" exported="true" qualityOption="source"/>
+    <image id="v6072d" name="i1.png" path="/images/" exported="true" qualityOption="source"/>
+    <image id="v6072e" name="i5.png" path="/images/" exported="true" qualityOption="source"/>
+    <image id="v6072f" name="i4.png" path="/images/" exported="true" qualityOption="source"/>
+    <image id="v6072h" name="f5.png" path="/images/" exported="true"/>
+    <image id="v6072i" name="f4.png" path="/images/" exported="true"/>
+    <component id="v6072k" name="TextInput.xml" path="/Input/" exported="true"/>
+    <component id="v6072l" name="NumericInput.xml" path="/Input/" exported="true"/>
+    <component id="v6072m" name="TextArea.xml" path="/Input/" exported="true"/>
+    <component id="v6072n" name="ListItem.xml" path="/List/" exported="true"/>
+    <component id="v6072o" name="IconListItem.xml" path="/List/" exported="true"/>
+    <component id="v6072p" name="CheckIconListItem.xml" path="/List/" exported="true"/>
+    <component id="v6072q" name="MenuBarItem.xml" path="/Menu/" exported="true"/>
+    <component id="v6072r" name="PopupMenuItem.xml" path="/Menu/" exported="true"/>
+    <component id="v6072t" name="PopupMenu.xml" path="/Menu/" exported="true"/>
+    <component id="v6072u" name="ProgressBar.xml" path="/ProgressBar/" exported="true"/>
+    <component id="v6073f" name="WindowFrame.xml" path="/Window/" exported="true"/>
+    <component id="v6073g" name="WindowCloseButton.xml" path="/Window/" exported="true"/>
+    <component id="e4d43h" name="IconTextButton.xml" path="/Button/" exported="true"/>
+    <image id="kjtf3k" name="bg_ban003.png" path="/images/" exported="true"/>
+    <image id="kjtf3l" name="bg_ban004.png" path="/images/" exported="true"/>
+    <image id="kjtf3m" name="bg_ban005.png" path="/images/" exported="true"/>
+    <image id="kjtf3n" name="bg_ban006.png" path="/images/" exported="true"/>
+    <image id="kjtf3o" name="bg_ban007.png" path="/images/" exported="true" scale="9grid" scale9grid="27,38,54,39"/>
+    <image id="kjtf3p" name="bg_ban008.png" path="/images/" exported="true" scale="9grid" scale9grid="42,30,84,60"/>
+    <image id="kjtf3q" name="bg_ban009.png" path="/images/" exported="true"/>
+    <image id="kjtf3r" name="bg_ban010.png" path="/images/" exported="true"/>
+    <image id="kjtf3s" name="bg_ban012.png" path="/images/" exported="true"/>
+    <image id="kjtf3t" name="bg_di01.png" path="/images/" exported="true"/>
+    <image id="kjtf3u" name="bg_di02.png" path="/images/" exported="true"/>
+    <image id="kjtf3v" name="bg_di03.png" path="/images/" exported="true"/>
+    <image id="kjtf3w" name="bg_di04.png" path="/images/" exported="true"/>
+    <image id="kjtf3x" name="bg_di05.png" path="/images/" exported="true"/>
+    <image id="kjtf41" name="bg_di09.png" path="/images/" exported="true"/>
+    <image id="kjtf42" name="bg_di10.png" path="/images/" exported="true"/>
+    <image id="kjtf43" name="bg_di11.png" path="/images/" exported="true"/>
+    <image id="kjtf44" name="bg_jianzhou01.png" path="/images/" exported="true"/>
+    <image id="kjtf45" name="bg_jianzhou02.png" path="/images/" exported="true"/>
+    <image id="kjtf46" name="bg_line01.png" path="/images/" exported="true"/>
+    <image id="kjtf47" name="bg_title001.png" path="/images/" exported="true" scale9grid="83,12,166,24"/>
+    <image id="kjtf48" name="bg_title002.png" path="/images/" exported="true"/>
+    <image id="kjtf49" name="bg_title003.png" path="/images/" exported="true"/>
+    <image id="kjtf4a" name="bg_title004.png" path="/images/" exported="true"/>
+    <image id="kjtf4b" name="bg_title005.png" path="/images/" exported="true"/>
+    <image id="kjtf4c" name="bg_title006.png" path="/images/" exported="true" scale="9grid" scale9grid="16,18,4,3" gridTile="16"/>
+    <image id="kjtf4d" name="bg_title007.png" path="/images/" exported="true"/>
+    <image id="kjtf4e" name="bg_title008.png" path="/images/" exported="true"/>
+    <image id="kjtf4f" name="bg_title009.png" path="/images/" exported="true"/>
+    <image id="kjtf4g" name="bg_xuetiao01.png" path="/images/" exported="true"/>
+    <image id="kjtf4h" name="bg_xuetiao02.png" path="/images/" exported="true"/>
+    <image id="kjtf4i" name="bg_xuetiao03.png" path="/images/" exported="true"/>
+    <image id="kjtf4j" name="bg_xuetiao04.png" path="/images/" exported="true"/>
+    <image id="kjtf4k" name="bg_xuetiao05.png" path="/images/" exported="true" scale="9grid" scale9grid="7,8,3,3"/>
+    <image id="kjtf4l" name="bg_xuetiao06.png" path="/images/" exported="true"/>
+    <image id="kjtf4m" name="bg_xuetiao07.png" path="/images/" exported="true"/>
+    <image id="kjtf4n" name="bg_xuetiao08.png" path="/images/" exported="true"/>
+    <image id="kjtf4o" name="bg_xuetiao09.png" path="/images/" exported="true"/>
+    <image id="kjtf4p" name="bg_xuetiao10.png" path="/images/" exported="true"/>
+    <image id="kjtf4q" name="bg_xuetiao11.png" path="/images/" exported="true"/>
+    <image id="kjtf4r" name="bg_xuetiao12.png" path="/images/" exported="true" scale="9grid" scale9grid="8,5,6,6"/>
+    <image id="kjtf4s" name="bg_xuetiao13.png" path="/images/" exported="true" scale="9grid" scale9grid="6,6,7,4" gridTile="16"/>
+    <image id="kjtf4t" name="bg_xuetiao_white.png" path="/images/" exported="true"/>
+    <image id="kjtf4u" name="button_answer01.png" path="/images/" exported="true"/>
+    <image id="kjtf4v" name="button_bt01.png" path="/images/" exported="true"/>
+    <image id="kjtf4w" name="button_bt02.png" path="/images/" exported="true"/>
+    <image id="kjtf4x" name="button_bt03.png" path="/images/" exported="true"/>
+    <image id="kjtf4y" name="button_bt04.png" path="/images/" exported="true"/>
+    <image id="kjtf54" name="button_bt10.png" path="/images/" exported="true"/>
+    <image id="kjtf55" name="button_bt11.png" path="/images/" exported="true"/>
+    <image id="kjtf56" name="button_bt12.png" path="/images/" exported="true"/>
+    <image id="kjtf57" name="button_chunji.png" path="/images/" exported="true"/>
+    <image id="kjtf58" name="button_close01.png" path="/images/" exported="true"/>
+    <image id="kjtf59" name="button_dongji.png" path="/images/" exported="true"/>
+    <image id="kjtf5a" name="button_fengshui01.png" path="/images/" exported="true"/>
+    <image id="kjtf5b" name="button_fengshui01_2.png" path="/images/" exported="true"/>
+    <image id="kjtf5c" name="button_fengshui01_3.png" path="/images/" exported="true"/>
+    <image id="kjtf5d" name="button_gaiming01.png" path="/images/" exported="true"/>
+    <image id="kjtf5e" name="button_jianpan01.png" path="/images/" exported="true"/>
+    <image id="kjtf5f" name="button_juesetps01.png" path="/images/" exported="true"/>
+    <image id="kjtf5g" name="button_juesetps02.png" path="/images/" exported="true"/>
+    <image id="kjtf5h" name="button_juesetps03.png" path="/images/" exported="true"/>
+    <image id="kjtf5i" name="button_juesetps04.png" path="/images/" exported="true"/>
+    <image id="kjtf5j" name="button_juesetps05.png" path="/images/" exported="true"/>
+    <image id="kjtf5k" name="button_juesetps06.png" path="/images/" exported="true"/>
+    <image id="kjtf5l" name="button_juesetps07.png" path="/images/" exported="true"/>
+    <image id="kjtf5m" name="button_open01.png" path="/images/" exported="true"/>
+    <image id="kjtf5n" name="button_other01.png" path="/images/" exported="true"/>
+    <image id="kjtf5o" name="button_qiuji.png" path="/images/" exported="true"/>
+    <image id="kjtf5s" name="button_tiaozhuan.png" path="/images/" exported="true"/>
+    <image id="kjtf5t" name="button_time01.png" path="/images/" exported="true"/>
+    <image id="kjtf5u" name="button_time02.png" path="/images/" exported="true"/>
+    <image id="kjtf5v" name="button_work01.png" path="/images/" exported="true" favorite="true"/>
+    <image id="kjtf5w" name="button_work02.png" path="/images/" exported="true"/>
+    <image id="kjtf5x" name="button_work03.png" path="/images/" exported="true"/>
+    <image id="kjtf5y" name="button_work04.png" path="/images/" exported="true"/>
+    <image id="kjtf5z" name="button_work05.png" path="/images/" exported="true"/>
+    <image id="kjtf60" name="button_wuxing01.png" path="/images/" exported="true"/>
+    <image id="kjtf61" name="button_wuxing02.png" path="/images/" exported="true"/>
+    <image id="kjtf63" name="button_xiaji.png" path="/images/" exported="true"/>
+    <image id="kjtf64" name="icon_000.png" path="/images/" exported="true"/>
+    <image id="kjtf65" name="icon_0002.png" path="/images/" exported="true"/>
+    <image id="kjtf66" name="icon_aimei01.png" path="/images/" exported="true"/>
+    <image id="kjtf67" name="icon_baoyu01.png" path="/images/" exported="true"/>
+    <image id="kjtf68" name="icon_bingbao01.png" path="/images/" exported="true"/>
+    <image id="kjtf69" name="icon_chenbao01.png" path="/images/" exported="true"/>
+    <image id="kjtf6a" name="icon_chongfu01.png" path="/images/" exported="true"/>
+    <image id="kjtf6b" name="icon_chouxu01.png" path="/images/" exported="true"/>
+    <image id="kjtf6c" name="icon_dawu01.png" path="/images/" exported="true"/>
+    <image id="kjtf6d" name="icon_daxue01.png" path="/images/" exported="true"/>
+    <image id="kjtf6e" name="icon_dayu01.png" path="/images/" exported="true"/>
+    <image id="kjtf6f" name="icon_di010.png" path="/images/" exported="true"/>
+    <image id="kjtf6g" name="icon_dijimiji.png" path="/images/" exported="true"/>
+    <image id="kjtf6h" name="icon_fenfeng01.png" path="/images/" exported="true"/>
+    <image id="kjtf6i" name="icon_fuzaozhifeng01.png" path="/images/" exported="true"/>
+    <image id="kjtf6j" name="icon_ganhan01.png" path="/images/" exported="true"/>
+    <image id="kjtf6k" name="icon_gaojimiji.png" path="/images/" exported="true"/>
+    <image id="kjtf6l" name="icon_hanliu01.png" path="/images/" exported="true"/>
+    <image id="kjtf6m" name="icon_kujie01.png" path="/images/" exported="true"/>
+    <image id="kjtf6n" name="icon_leibao01.png" path="/images/" exported="true"/>
+    <image id="kjtf6o" name="icon_mieyu01.png" path="/images/" exported="true"/>
+    <image id="kjtf6p" name="icon_moon01.png" path="/images/" exported="true"/>
+    <image id="kjtf6q" name="icon_moon02.png" path="/images/" exported="true"/>
+    <image id="kjtf6r" name="icon_moon03.png" path="/images/" exported="true"/>
+    <image id="kjtf6s" name="icon_moon04.png" path="/images/" exported="true"/>
+    <image id="kjtf6t" name="icon_moon05.png" path="/images/" exported="true"/>
+    <image id="kjtf6u" name="icon_moon06.png" path="/images/" exported="true"/>
+    <image id="kjtf6v" name="icon_qingtian01.png" path="/images/" exported="true"/>
+    <image id="kjtf6w" name="icon_quxiao01.png" path="/images/" exported="true"/>
+    <image id="kjtf6x" name="icon_relang01.png" path="/images/" exported="true"/>
+    <image id="kjtf6y" name="icon_renyi01.png" path="/images/" exported="true"/>
+    <image id="kjtf6z" name="icon_shouliu01.png" path="/images/" exported="true"/>
+    <image id="kjtf70" name="icon_sun01.png" path="/images/" exported="true"/>
+    <image id="kjtf71" name="icon_sun02.png" path="/images/" exported="true"/>
+    <image id="kjtf72" name="icon_wenqi01.png" path="/images/" exported="true"/>
+    <image id="kjtf73" name="icon_xiaoxue01.png" path="/images/" exported="true"/>
+    <image id="kjtf74" name="icon_xiaoyu01.png" path="/images/" exported="true"/>
+    <image id="kjtf75" name="icon_yintian01.png" path="/images/" exported="true"/>
+    <image id="kjtf76" name="icon_yongye01.png" path="/images/" exported="true"/>
+    <image id="kjtf77" name="icon_zhiding01.png" path="/images/" exported="true"/>
+    <image id="kjtf78" name="icon_zhongjimiji.png" path="/images/" exported="true"/>
+    <image id="kjtf79" name="jiaohuan.png" path="/images/" exported="true"/>
+    <image id="kjtf7a" name="other_anpai01.png" path="/images/" exported="true"/>
+    <image id="kjtf7b" name="other_anpai02.png" path="/images/" exported="true"/>
+    <image id="kjtf7c" name="other_anpai03.png" path="/images/" exported="true"/>
+    <image id="kjtf7d" name="other_anpai04.png" path="/images/" exported="true"/>
+    <image id="kjtf7e" name="other_bar01.png" path="/images/" exported="true"/>
+    <image id="kjtf7f" name="other_down01.png" path="/images/" exported="true"/>
+    <image id="kjtf7g" name="other_fenye01.png" path="/images/" exported="true"/>
+    <image id="kjtf7h" name="other_fenye02.png" path="/images/" exported="true"/>
+    <image id="kjtf7i" name="other_fenye03.png" path="/images/" exported="true"/>
+    <image id="kjtf7j" name="other_fenye04.png" path="/images/" exported="true"/>
+    <image id="kjtf7k" name="other_fenye05.png" path="/images/" exported="true"/>
+    <image id="kjtf7l" name="other_groove01.png" path="/images/" exported="true" favorite="true" scale="9grid" scale9grid="13,15,4,2" gridTile="16"/>
+    <image id="kjtf7m" name="other_groove02.png" path="/images/" exported="true"/>
+    <image id="kjtf7n" name="other_groove03.png" path="/images/" exported="true"/>
+    <image id="kjtf7o" name="other_hun01.png" path="/images/" exported="true"/>
+    <image id="kjtf7p" name="other_huo01.png" path="/images/" exported="true"/>
+    <image id="kjtf7q" name="other_jin01.png" path="/images/" exported="true"/>
+    <image id="kjtf7r" name="other_jingtan01.png" path="/images/" exported="true"/>
+    <image id="kjtf7s" name="other_jingtan02.png" path="/images/" exported="true"/>
+    <image id="kjtf7t" name="other_ling01.png" path="/images/" exported="true"/>
+    <image id="kjtf7u" name="other_mu01.png" path="/images/" exported="true"/>
+    <image id="kjtf7v" name="other_play01.png" path="/images/" exported="true"/>
+    <image id="kjtf7w" name="other_play02.png" path="/images/" exported="true"/>
+    <image id="kjtf7x" name="other_play03.png" path="/images/" exported="true"/>
+    <image id="kjtf7y" name="other_play04.png" path="/images/" exported="true"/>
+    <image id="kjtf7z" name="other_play05.png" path="/images/" exported="true"/>
+    <image id="kjtf80" name="other_play06.png" path="/images/" exported="true"/>
+    <image id="kjtf81" name="other_shouqi01.png" path="/images/" exported="true"/>
+    <image id="kjtf82" name="other_shui01.png" path="/images/" exported="true"/>
+    <image id="kjtf83" name="other_sign01.png" path="/images/" exported="true"/>
+    <image id="kjtf84" name="other_sign02.png" path="/images/" exported="true"/>
+    <image id="kjtf85" name="other_sign03.png" path="/images/" exported="true"/>
+    <image id="kjtf86" name="other_tianqian.png" path="/images/" exported="true"/>
+    <image id="kjtf87" name="other_tishi01.png" path="/images/" exported="true"/>
+    <image id="kjtf88" name="other_tu01.png" path="/images/" exported="true"/>
+    <image id="kjtf89" name="other_up01.png" path="/images/" exported="true"/>
+    <image id="kjtf8a" name="other_updown01.png" path="/images/" exported="true"/>
+    <image id="kjtf8b" name="other_updown02 4.png" path="/images/" exported="true"/>
+    <image id="kjtf8c" name="other_updown02.png" path="/images/" exported="true"/>
+    <image id="kjtf8d" name="other_updown03.png" path="/images/" exported="true"/>
+    <image id="kjtf8e" name="other_wu01.png" path="/images/" exported="true"/>
+    <image id="kjtf8f" name="other_yiwen01.png" path="/images/" exported="true"/>
+    <image id="kjtf8g" name="other_yiwen02.png" path="/images/" exported="true"/>
+    <image id="kjtf8h" name="other_zhishi01.png" path="/images/" exported="true"/>
+    <image id="kjtf8i" name="other_zhishi02.png" path="/images/" exported="true"/>
+    <image id="kjtf8l" name="xrui_bg01.png" path="/images/" exported="true"/>
+    <image id="kjtf8m" name="xrui_bg02.png" path="/images/" exported="true"/>
+    <image id="kjtf8p" name="xrui_bg05.png" path="/images/" exported="true"/>
+    <image id="kjtf8t" name="xrui_bg24.png" path="/images/" exported="true"/>
+    <image id="kjtf8u" name="xrui_bg25.png" path="/images/" exported="true"/>
+    <image id="kjtf8v" name="xrui_bg26.png" path="/images/" exported="true"/>
+    <image id="kjtf8w" name="xrui_bg27.png" path="/images/" exported="true"/>
+    <image id="kjtf8y" name="xrui_bg31.png" path="/images/" exported="true"/>
+    <image id="kjtf8z" name="xrui_bg32.png" path="/images/" exported="true"/>
+    <image id="kjtf90" name="xrui_bg33.png" path="/images/" exported="true"/>
+    <image id="is9d91" name="wndright.png" path="/images/" exported="true"/>
+    <image id="is9d95" name="多边形 14 拷贝.png" path="/images/" exported="true"/>
+    <image id="is9d98" name="按钮_c.png" path="/images/" exported="true"/>
+    <image id="is9d99" name="checkbox_dark.png" path="/images/" exported="true"/>
+    <image id="zg5x9b" name="bg_ban031.png" path="/images/" exported="true" scale="9grid" scale9grid="44,87,88,5"/>
+    <image id="zg5x9c" name="bg_ban016.png" path="/images/" exported="true" scale="9grid" scale9grid="72,60,144,10"/>
+    <image id="zg5x9d" name="bg_ban0013.png" path="/images/" exported="true" scale="9grid" scale9grid="30,34,9,8"/>
+    <image id="dhe49k" name="bg_ban001.png" path="/images/" exported="true" scale="9grid" scale9grid="232,136,6,16"/>
+    <image id="dhe49w" name="bg_ban027.png" path="/images/" exported="true"/>
+    <image id="dhe49x" name="bg_ban026.png" path="/images/" exported="true"/>
+    <image id="dhe49y" name="bg_ban025.png" path="/images/" exported="true"/>
+    <image id="dhe49z" name="bg_ban024.png" path="/images/" exported="true"/>
+    <image id="dhe4a0" name="bg_ban022.png" path="/images/" exported="true" scale="9grid" scale9grid="9,7,18,14"/>
+    <image id="dhe4a3" name="bg_ban032.png" path="/images/" exported="true" favorite="true" scale="9grid" scale9grid="13,7,1,1"/>
+    <image id="pvoaab" name="bg_xuetiao15.png" path="/images/" scale="9grid" scale9grid="10,9,29,2"/>
+    <component id="pvoaac" name="Button_iconOnly.xml" path="/Button/" exported="true"/>
+    <image id="pvoaad" name="icon_aniu01.png" path="/images/"/>
+    <image id="pvoaae" name="bg_ban023.png" path="/images/" exported="true" scale="9grid" scale9grid="23,13,5,3"/>
+    <component id="pvoaaf" name="SliderH.xml" path="/Slider/" exported="true"/>
+    <component id="v9j6ah" name="Button2.xml" path="/Button/" exported="true" favorite="true"/>
+    <image id="v9j6ai" name="button_bt16.png" path="/images/" exported="true" scale="9grid" scale9grid="25,11,8,8"/>
+    <component id="v9j6aj" name="Checkbox2.xml" path="/Checkbox/" exported="true"/>
+    <image id="v9j6ak" name="other_kong01.png" path="/images/" exported="true"/>
+    <image id="xwd7al" name="bg_ban020.png" path="/images/" exported="true" favorite="true" scale="9grid" scale9grid="10,10,31,28"/>
+    <image id="mg1dam" name="bg_ban028.png" path="/images/"/>
+    <image id="mg1dan" name="bg_ban021.png" path="/images/" exported="true"/>
+    <image id="mg1dao" name="bg_ban019.png" path="/images/" exported="true"/>
+    <image id="mg1dap" name="bg_ban018.png" path="/images/" exported="true"/>
+    <image id="mg1daq" name="bg_ban017.png" path="/images/" exported="true"/>
+    <image id="mg1dar" name="bg_ban0014.png" path="/images/" exported="true"/>
+    <image id="hq69as" name="xrui_bg45_3.png" path="/images/"/>
+    <image id="hq69at" name="xrui_bg45_2.png" path="/images/"/>
+    <image id="hq69au" name="xrui_bg45.png" path="/images/"/>
+    <image id="hq69av" name="button_gongnenganniu1.png" path="/images/"/>
+    <image id="hq69aw" name="bg_ban033.PNG" path="/images/"/>
+    <image id="hq69ax" name="bg_ban002.png" path="/images/" exported="true"/>
+    <image id="hq69ay" name="bg_ban0013-old.png" path="/images/" exported="true"/>
+  </resources>
+  <publish name="GSQ" path="..\XiaWorld\Assets\Resources\UIData" packageCount="2"/>
+</packageDescription>

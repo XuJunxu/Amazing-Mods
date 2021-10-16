@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="22,22" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over" selected="0"/>
+  <displayList>
+    <image id="n0_fd73" name="n0" src="kjtf5f" fileName="images/button_juesetps01.png" pkg="ncbwb41m" xy="0,0" size="22,22">
+      <gearColor controller="button" pages="1,2" values="#c8c8c8|#e1e1e1" default="#ffffff"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_fd73" name="n1" src="fd739" fileName="images/bg_tips_2.png" xy="6,5" size="10,12" aspect="true">
+      <gearColor controller="button" pages="1,2" values="#c8c8c8|#e1e1e1" default="#ffffff"/>
+      <relation target="" sidePair="width-width%,height-height%,center-center%,middle-middle%"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

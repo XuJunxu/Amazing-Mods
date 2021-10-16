@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="102,21" opaque="false" extention="Slider">
+  <controller name="Mode" exported="true" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="dhe4a3" fileName="images/bg_ban032.png" xy="2,6" size="100,11">
+      <gearDisplay controller="Mode" pages="0"/>
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n2" name="bar" src="pvoaab" fileName="images/bg_xuetiao15.png" xy="1,6" size="86,11">
+      <gearDisplay controller="Mode" pages="0"/>
+    </image>
+    <component id="n3" name="grip" src="pvoaac" fileName="Button/Button_iconOnly.xml" xy="83,-1" pivot="0.11,0.5" size="20,24">
+      <relation target="n2" sidePair="right-right"/>
+      <Button icon="ui://ncbwb41mpvoaad"/>
+    </component>
+  </displayList>
+  <Slider/>
+  <relation target="n1" sidePair="height-height"/>
+</component>

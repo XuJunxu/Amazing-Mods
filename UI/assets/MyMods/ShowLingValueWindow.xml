@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,60" opaque="false" designImageAlpha="100" designImageLayer="1" bgColor="#000000">
+  <displayList>
+    <component id="n1_ceo9" name="label" src="ceo91" fileName="ValueLabel.xml" xy="0,0"/>
+  </displayList>
+</component>

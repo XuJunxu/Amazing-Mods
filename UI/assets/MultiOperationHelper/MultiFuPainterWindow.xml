@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="340,420">
+  <displayList>
+    <component id="n0_hufs" name="frame" src="lrz6j" fileName="com/WindowFrame0.xml" xy="0,0" size="340,420">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="批量画符"/>
+    </component>
+    <component id="n9_lrz6" name="title" src="lrz6i" fileName="com/FrameTitle1.xml" xy="97,24" size="138,29">
+      <relation target="" sidePair="center-center,top-top"/>
+      <Label title="批量画符1"/>
+    </component>
+    <component id="n10_lrz6" name="tips" src="cz1ga" fileName="com/TipsLabel.xml" xy="12,18">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <list id="n1_hufs" name="list" xy="18,61" size="309,301" layout="flow_hz" selectionMode="none" overflow="scroll" lineGap="4" colGap="4" defaultItem="ui://b7phkfl5hufs1" autoClearItems="true">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item title="spell spell spell spell"/>
+      <item/>
+      <item/>
+      <item title="避暑符避暑符"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item title="spell spell spell spell spell spell"/>
+      <item/>
+      <item/>
+      <item title="避暑符避暑符避暑符"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_hufs" name="btn1" src="v6070" fileName="Button/Button.xml" pkg="ncbwb41m" xy="70,375" size="85,25">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="确定1"/>
+    </component>
+    <component id="n5_hufs" name="btn2" src="v6070" fileName="Button/Button.xml" pkg="ncbwb41m" xy="185,375" size="85,25">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="取消1"/>
+    </component>
+    <image id="n7_hufs" name="n7" src="kjtf46" fileName="images/bg_line01.png" pkg="ncbwb41m" xy="10,58" size="320,2">
+      <relation target="" sidePair="width-width,top-top"/>
+    </image>
+    <image id="n8_hufs" name="n8" src="kjtf46" fileName="images/bg_line01.png" pkg="ncbwb41m" xy="10,363" size="320,2">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+  </displayList>
+</component>
