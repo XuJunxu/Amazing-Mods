@@ -6,7 +6,7 @@
     <component id="p5v82" name="Thing.xml" path="/com/" exported="true"/>
     <component id="p5v83" name="TipsLabel.xml" path="/com/" exported="true"/>
     <component id="p5v84" name="Button2.xml" path="/com/" exported="true" favorite="true"/>
-    <component id="p5v86" name="SearchThingWindow.xml" path="/" exported="true"/>
+    <component id="p5v86" name="SearchThingWindow.xml" path="/com/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="il4flyyn">
+  <resources>
+    <component id="owkw0" name="StorageSettingsWindow.xml" path="/" exported="true"/>
+    <component id="owkw1" name="TipsLabel.xml" path="/com/" exported="true"/>
+    <component id="owkw2" name="FrameTitle1.xml" path="/com/" exported="true"/>
+    <component id="owkw3" name="WindowFrame0.xml" path="/com/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

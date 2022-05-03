@@ -44,10 +44,13 @@ local LanStr = {
 	["寿元不足"] = "Insufficient Lifespan",
 	["修为不足"] = "Insufficient Experience",
 	["%s不足"] = "Insufficient %s",
-	["[color=#0000FF]幽珀[/color]数量不足。请确认物品是否被禁用。"] = "The number of [color=#0000FF]Anguish Soul Gem[/color] is not enough. Please check if the item is banned.",
+	["幽珀"] = "Anguish Soul Gem",
+	["劫灰"] = "Tribulation Ashe",
+	["[color=#0000FF]%s[/color]数量不足。请确认物品是否被禁用。"] = "The number of [color=#0000FF]%s[/color] is not enough. Please check if the item is banned.",
 	["角色全选"] = "Select All Characters",
 	["按住左Shift键，鼠标左键点选小人，已搜魂或被其他操作锁定的小人无法被选中。"] = "Hold down the left Shift key and use the left mouse button to select characters. Characters that have been soul searched or locked by other operation cannot be selected.",
 	["按住左Shift键，鼠标左键点选物品。若物品的堆叠数=1，则可以设置幽淬的次数；若物品的堆叠数>1，则可以设置幽淬的个数。幽淬次数范围0--12，幽淬个数范围0--99。"] = "Hold down the left Shift key and use the left mouse button to select items. If the number of stacks of the item is 1, you can set the number of Specter Refinement. If the number of stacks of the item is greater than 1, you can set the number of the item for Specter Refinement.",
+	["按住左Shift键，鼠标左键点选物品。若物品的堆叠数=1，则可以设置道淬的次数；若物品的堆叠数>1，则可以设置道淬的个数。道淬次数范围0--12，道淬个数范围0--99。"] = "Hold down the left Shift key and use the left mouse button to select items. If the number of stacks of the item is 1, you can set the number of Tao Refinement. If the number of stacks of the item is greater than 1, you can set the number of the item for Tao Refinement.",
 	["按住左Shift键，鼠标左键点选物品，被其他操作锁定的物品无法被选中。"] = "Hold down the left Shift key and use the left mouse button to select items. Items that are locked by other operation cannot be selected.",
 	["按住左Shift键，鼠标左键点选植物，被其他操作锁定的植物无法被选中。"] = "Hold down the left Shift key and use the left mouse button to select plants. Plants that are locked by other operation cannot be selected.",
 	["按住左Shift键，鼠标左键点选小人或精怪，被其他操作锁定的目标无法被选中。"] = "Hold down the left Shift key and use the left mouse button to select characters or Sentient Spirits. Targets that are locked by other operation cannot be selected.",
@@ -115,7 +118,7 @@ function MultiOperationHelper:OnEnter()
 	Event:RegisterEvent(g_emEvent.WindowEvent, function(evt, thing, objs) 
 		self:AddStorageMenu(evt, thing, objs); 
 	end, "MultiOperationHelper_AddStorageMenu");
-	print("MultiOperationHelper V4.03");
+	print("MultiOperationHelper V4.10");
 end
 
 function MultiOperationHelper:AddBtn2Item(evt, thing, objs)  --向Item添加按键
@@ -871,7 +874,7 @@ function MultiOperationHelper:MagicEnter(npc, magic)  --点击某神通后进入
 		local thing_type = nil;
 		if magic_def.Name == "MakeSoulCrystal" then
 			thing_type = g_emThingType.None;
-		elseif magic_def.Name == "SoulCrystalYouPowerUp" or magic_def.Name == "FengshuiItemOpen" or magic_def.Name == "AbsorbLing_Item" then
+		elseif magic_def.Name == "SoulCrystalYouPowerUp" or magic_def.Name == "FengshuiItemOpen" or magic_def.Name == "AbsorbLing_Item" or magic_def.Name == "JieHuiDaoPowerUp" then
 			thing_type = g_emThingType.Item;
 		elseif magic_def.Name == "PlantGrowUp" or magic_def.Name == "PlantGrowUp_Gong1" or magic_def.Name == "PlantGrowUp_Gong9" then
 			thing_type = g_emThingType.Plant;
@@ -887,7 +890,7 @@ function MultiOperationHelper:MagicEnter(npc, magic)  --点击某神通后进入
 				for _, input in pairs(inputdata) do
 					local it = ThingMgr:FindThingByID(input.id);
 					if self:CheckThing(npc, magic_def.Name, magic_def.SelectType, it) then
-						if magic_def.Name == "SoulCrystalYouPowerUp" then
+						if magic_def.Name == "SoulCrystalYouPowerUp" or magic_def.Name == "JieHuiDaoPowerUp" then
 							local cnt = math.min(it.FreeCount, input.data);
 							if it.FreeCount == 1 and it.Count == 1 then
 								cnt = math.min(12, input.data);
@@ -917,7 +920,7 @@ function MultiOperationHelper:CheckThing(npc, magic, stype, thing)  --检查thin
 	local CommandType = CS.XiaWorld.g_emIndividualCommandType;
 	local g_emThingType = CS.XiaWorld.g_emThingType;
 	if magic ~= nil and thing ~= nil and thing.Lock.FreeCount > 0 and npc.ID ~= thing.ID then
-		if (magic == "SoulCrystalYouPowerUp") or 
+		if (magic == "SoulCrystalYouPowerUp" or magic == "JieHuiDaoPowerUp") or 
 			(magic == "AbsorbLing_Item" and thing.LingV > 0) or
 			(magic == "FengshuiItemOpen" and thing.FSItemState == 1) then
 			return true;
@@ -983,7 +986,7 @@ function MultiOperationHelper:CheckEnable(magic_def, npc, count)  --NpcMagicBnt.
 		valid_count = math.min(valid_count, math.floor(npc.PropertyMgr.Practice.StageValue / magic_def.CostGong));
 		table.insert(text, GLS("修为不足"));			
 	end
-	if magic_def.ItemCost ~= nil and magic_def.ItemCost.Count > 0 and magic_def.Name ~= "SoulCrystalYouPowerUp" then
+	if magic_def.ItemCost ~= nil and magic_def.ItemCost.Count > 0 and magic_def.Name ~= "SoulCrystalYouPowerUp" and magic_def.Name ~= "JieHuiDaoPowerUp" then
 		for _, data in pairs(magic_def.ItemCost) do
 			if World.Warehouse:GetItemCount(data.name) < data.count * count then
 				valid_count = math.min(valid_count, math.floor(World.Warehouse:GetItemCount(data.name) / data.count));
@@ -991,9 +994,13 @@ function MultiOperationHelper:CheckEnable(magic_def, npc, count)  --NpcMagicBnt.
 			end
 		end
 	end
-	if magic_def.Name == "SoulCrystalYouPowerUp" then  --UILogicMode_IndividualCommand.Apply2Thing() case g_emIndividualCommandType.SoulCrystalYouPowerUp
-		local item_count = World.Warehouse:GetItemCount("Item_SoulCrystalYou");
-		local item_all = Map.Things:FindItems(nil, 0, item_count, "Item_SoulCrystalYou", 0, nil, 0, 9999, nil, false, false);
+	if magic_def.Name == "SoulCrystalYouPowerUp" or magic_def.Name == "JieHuiDaoPowerUp" then  --UILogicMode_IndividualCommand.Apply2Thing() case g_emIndividualCommandType.SoulCrystalYouPowerUp
+		local item_name = "Item_SoulCrystalYou";
+		if magic_def.Name == "JieHuiDaoPowerUp" then
+			item_name = "Item_God_JieHui";
+		end
+		local item_count = World.Warehouse:GetItemCount(item_name);
+		local item_all = Map.Things:FindItems(nil, 0, item_count, item_name, 0, nil, 0, 9999, nil, false, false);
 		local ct = 0;
 		if item_all ~= nil and item_all.Count > 0 then
 			for _, it in pairs(item_all) do
@@ -1007,7 +1014,7 @@ function MultiOperationHelper:CheckEnable(magic_def, npc, count)  --NpcMagicBnt.
 		end
 		if ct < count then
 			valid_count = math.min(valid_count, ct);
-			table.insert(text, string.format(GLS("%s不足"), ThingMgr:GetDef(g_emThingType.Item, "Item_SoulCrystalYou").ThingName));
+			table.insert(text, string.format(GLS("%s不足"), ThingMgr:GetDef(g_emThingType.Item, item_name).ThingName));
 		end
 	end
 	text = table.concat(text, GLS("、"));
@@ -1044,10 +1051,16 @@ function MultiOperationHelper:AddMagicCommand(magic_def, npc, targets, count)  -
 			end
 		elseif magic_def.SelectType ~= g_emIndividualCommandType.None then
 			local thing = ThingMgr:FindThingByID(targets[i]);
-			if magic_def.SelectType == g_emIndividualCommandType.SoulCrystalYouPowerUp then  --UILogicMode_IndividualCommand.Apply2Thing() case g_emIndividualCommandType.SoulCrystalYouPowerUp
-				local cost_item = Map.Things:FindItem(nil, 9999, "Item_SoulCrystalYou", 0, false, nil, 0, 9999, nil, false);
+			if magic_def.SelectType == g_emIndividualCommandType.SoulCrystalYouPowerUp or magic_def.SelectType == g_emIndividualCommandType.DaoCuiPowerUp then  --UILogicMode_IndividualCommand.Apply2Thing() case g_emIndividualCommandType.SoulCrystalYouPowerUp
+				local cost_item_name = "Item_SoulCrystalYou";
+				local cost_thing_name = GLS("幽珀");
+				if  magic_def.SelectType == g_emIndividualCommandType.DaoCuiPowerUp then
+					cost_item_name = "Item_God_JieHui";
+					cost_thing_name = GLS("劫灰");
+				end
+				local cost_item = Map.Things:FindItem(nil, 9999, cost_item_name, 0, false, nil, 0, 9999, nil, false);
 				if cost_item == nil then
-					world:ShowMsgBox(GLS("[color=#0000FF]幽珀[/color]数量不足。请确认物品是否被禁用。"));
+					world:ShowMsgBox(string.format(GLS("[color=#0000FF]%s[/color]数量不足。请确认物品是否被禁用。"), cost_thing_name));
 					break;
 				end
 				local command = npc:AddCommand(magic_def.CMD, thing); 
@@ -1270,6 +1283,7 @@ end
 MultiOperationHelper.magic_name_list = {
 	"SeachSoul",				--搜魂
 	"SoulCrystalYouPowerUp",	--幽淬
+	"JieHuiDaoPowerUp",			--道淬
 	"AbsorbGong_5",				--他化
 	"AbsorbGong_6",				--寄生
 --	"LingCrystalMake",			--炼制灵晶
@@ -1296,6 +1310,7 @@ MultiOperationHelper.magic_name_list = {
 MultiOperationHelper.magic_tips = {
 	["SeachSoul"] = GLS("按住左Shift键，鼠标左键点选小人，已搜魂或被其他操作锁定的小人无法被选中。"),
 	["SoulCrystalYouPowerUp"] = GLS("按住左Shift键，鼠标左键点选物品。若物品的堆叠数=1，则可以设置幽淬的次数；若物品的堆叠数>1，则可以设置幽淬的个数。幽淬次数范围0--12，幽淬个数范围0--99。"),
+	["JieHuiDaoPowerUp"] = GLS("按住左Shift键，鼠标左键点选物品。若物品的堆叠数=1，则可以设置道淬的次数；若物品的堆叠数>1，则可以设置道淬的个数。道淬次数范围0--12，道淬个数范围0--99。"),
 	["FengshuiItemOpen"] = GLS("按住左Shift键，鼠标左键点选物品，被其他操作锁定的物品无法被选中。"),
 	["AbsorbLing_Item"] = GLS("按住左Shift键，鼠标左键点选物品，被其他操作锁定的物品无法被选中。"),
 	["PlantGrowUp"] = GLS("按住左Shift键，鼠标左键点选植物，被其他操作锁定的植物无法被选中。"),

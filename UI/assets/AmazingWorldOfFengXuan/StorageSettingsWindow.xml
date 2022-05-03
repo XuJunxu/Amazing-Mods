@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="320,277">
+  <displayList>
+    <component id="n33_s426" name="frame" src="owkw3" fileName="com/WindowFrame0.xml" xy="0,0" size="320,277">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n37_lrz6" name="title" src="owkw2" fileName="com/FrameTitle1.xml" xy="104,24" size="110,29">
+      <relation target="" sidePair="center-center,top-top"/>
+      <Label title="设置1"/>
+    </component>
+    <component id="n42_lrz6" name="tips" src="owkw1" fileName="com/TipsLabel.xml" xy="12,18">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <image id="n46_owkw" name="n46" src="v9j6ai" fileName="images/button_bt16.png" pkg="ncbwb41m" xy="15,64" size="290,100">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n47_owkw" name="n47" src="v9j6ai" fileName="images/button_bt16.png" pkg="ncbwb41m" xy="15,164" size="290,54">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <component id="n25_jrjp" name="check1" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="25,170" size="63,19">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button title="可交易" titleFontSize="13"/>
+    </component>
+    <component id="n27_jrjp" name="check2" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="25,193" size="115,19">
+      <relation target="" sidePair="left-center,bottom-bottom"/>
+      <Button title="可存放特殊物品" titleFontSize="13"/>
+    </component>
+    <component id="n50_6rp5" name="check3" src="v9j6aj" fileName="Checkbox/Checkbox2.xml" pkg="ncbwb41m" xy="170,170" size="76,19">
+      <relation target="" sidePair="left-center,bottom-bottom"/>
+      <Button title="自动收集" titleFontSize="13"/>
+    </component>
+    <text id="n49_owkw" name="label" xy="25,68" size="94,20" fontSize="13" color="#514030" align="center" vAlign="middle" singleLine="true" text="存放物品类型：">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+    <list id="n1_8fu1" name="list" xy="25,91" size="270,67" layout="flow_hz" selectionMode="multipleSingleClick" scroll="horizontal" lineGap="4" lineItemCount="3" defaultItem="ui://ncbwb41mv9j6aj" autoItemSize="true" autoClearItems="true" scrollItemToViewOnClick="false">
+      <relation target="" sidePair="width-width,height-height"/>
+      <item title="Treasure"/>
+      <item title="工具"/>
+      <item title="武器"/>
+      <item title="符咒"/>
+      <item title="宝物"/>
+      <item title="法宝"/>
+      <item title="其他"/>
+    </list>
+    <component id="n38_lrz6" name="btn1" src="v6070" fileName="Button/Button.xml" pkg="ncbwb41m" xy="60,232" size="85,25">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="确定1"/>
+    </component>
+    <component id="n39_lrz6" name="btn2" src="v6070" fileName="Button/Button.xml" pkg="ncbwb41m" xy="175,232" size="85,25">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+      <Button title="取消1"/>
+    </component>
+  </displayList>
+</component>

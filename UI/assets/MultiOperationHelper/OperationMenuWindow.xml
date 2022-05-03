@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="158,52" pivot="0,1.5" anchor="true" opaque="false">
+<component size="52,52" anchor="true" opaque="false">
   <displayList>
-    <list id="n1_ba5x" name="list" xy="0,0" size="158,52" layout="row" selectionMode="none" scroll="horizontal" colGap="1" defaultItem="ui://b7phkfl5q9cph" autoItemSize="false" vAlign="middle" autoClearItems="true">
+    <list id="n1_ba5x" name="list" xy="0,0" size="52,52" layout="flow_hz" selectionMode="none" scroll="both" lineGap="1" colGap="1" lineItemCount="6" defaultItem="ui://b7phkfl5q9cph" vAlign="bottom" autoClearItems="true" scrollItemToViewOnClick="false">
       <relation target="" sidePair="width-width,height-height"/>
       <item title="批量画符"/>
       <item title="文字文字文字"/>
       <item title="Multiply Eat"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
     </list>
   </displayList>
 </component>

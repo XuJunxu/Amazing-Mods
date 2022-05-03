@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="320,320" extention="Label" initName="frame">
+  <displayList>
+    <image id="n7_zg5x" name="n7" src="kjtf3p" fileName="images/bg_ban008.png" pkg="ncbwb41m" xy="-11,0" size="342,325">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <graph id="n2" name="dragArea" xy="0,0" size="320,320">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n4" name="contentArea" xy="12,54" size="296,221">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>
