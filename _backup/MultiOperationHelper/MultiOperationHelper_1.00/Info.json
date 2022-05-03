@@ -1,0 +1,11 @@
+﻿{
+	"Name":"MultiOperationHelper",		
+	"DisplayName":"批量操作Helper", 
+	"Desc":"批量操作Helper\n1、在符纸上添加按钮：批量画符\n2、在可食用物品上添加：多人食用\n3、在可装备物品上添加：多人装备\n4、在内门弟子上添加神通按钮，可批量施展神通：搜魂、幽淬之法、他化自在、魂体寄生、炼制灵晶、炼制灵石、大衍神算、鉴定、凝练\n5、点击小人或成功添加命令后会打断小人的娱乐状态",
+	"UIPackage":"UI/MultiOperationHelper",
+	"GameVersion":0.95309,	
+	"Version":1.00,
+	"Author":"枫轩",
+	"Sort":"99999",
+	"IncreasedDesc":""
+}

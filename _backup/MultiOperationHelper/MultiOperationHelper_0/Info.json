@@ -1,0 +1,11 @@
+﻿{
+	"Name":"MultiOperationHelper",		
+	"DisplayName":"批量操作Helper", 
+	"Desc":"",
+	"UIPackage":"UI/MultiOperationHelper",
+	"GameVersion":0.95,	
+	"Version":1.00,
+	"Author":"枫轩",
+	"Sort":"99999",
+	"IncreasedDesc":""
+}

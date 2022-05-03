@@ -1,0 +1,17 @@
+ID	Content	WholeContent	TipDesc	Desc	Type	TypeLevel	ImportanceLevel	IsShowNpcTips	RemoveType	WorldSpeed	SameType	LocationType	Icon
+	消息描述	同ID合并后描述	tips上显示的详细说明或进一步提示		事件类型（默认为空）	同类型事件等级（默认为0）	0提示 1信息 2警告（默认为0）	0不显示 1显示（默认为0）	0自动过期 1条件过期 2查看过期（默认为0）	0不处理 1暂停 2一档 3二挡 4三挡 （默认为0）	0SameR_DiffA  1Add  2Refresh（默认为0）	0None  1Happen  2Obj  3SelectObj（暂未使用）	
+5751	{0}	习得秘籍					1				1		
+5752	{0}	需确定的消息					1				1		
+5761	{0}	大衍神算					0				1		
+5762	{0}	宝物					1		0		1		
+5763	{0}	秘闻					2		0		1		
+5764	{0}	领悟					2		2		1		
+5765	{0}	普通天气					2		0		1		
+5766	{0}	高级天气					2		2		1		
+5767	{0}	高强度天气					2		2		1		
+5768	{0}	路人					2		0		1		
+5769	{0}	其他消息					2		0		1		
+5770	{0}	灵植事件					2		2		1		
+5771	{0}	势力事件					2		2		1		
+5772	{0}	历练事件1					2		0		1		
+5773	{0}	历练事件2					2		0		1		

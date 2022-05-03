@@ -1,0 +1,12 @@
+﻿{
+	"Name":"AmazingWorldOfFengXuan",		
+	"DisplayName":"AmazingWorldOfFengXuan", 
+	"Desc":"这是一个模组的官方示范，它示范了模组可以提供的大部分功能。[color=#FF0000]非开发者请勿激活[/color]\n模组相关的文档等内容请查看游戏安装目录下Mods文件夹\n模组开发者官方支持QQ群：806689706（仅限开发者,玩家请前往各大玩家群）\nThis is an official example of mod, which contains most function.[color=#FF0000]DO NOT ACTIVATE THIS IF YOU ARE NOT A DEVELOPER.[/color]\n To check more instructions of mods, you can go to the Mods folder under where the game is installed.",
+	"UIPackage":"UI/AmazingWorldOfFengXuan", 
+	"UIPackage说明":"载入UI模块，多个包用逗号隔开，没有就删掉UIPackage",
+	"GameVersion":0.95,	
+	"Version":1,			
+	"Author":"GSQ",			
+	"Sort":"99999",		
+	"IncreasedDesc":"该演示模组位于安装目录Mods文件夹。\nThis mod locates in the Mods folder under where you install this game."	
+}

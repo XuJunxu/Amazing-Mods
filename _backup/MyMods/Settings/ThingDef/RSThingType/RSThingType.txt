@@ -1,0 +1,3 @@
+ItemName	Type
+Item_DragonShit	原料
+Fish_StoneCrab	原料

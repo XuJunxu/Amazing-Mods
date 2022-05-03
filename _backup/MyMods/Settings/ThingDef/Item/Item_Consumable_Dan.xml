@@ -1,0 +1,65 @@
+<ThingDefs><List>
+<!--
+	<ThingDef Type="Item" Name="Item_Dan_JingYuan22" Parent="DanBase">
+		<ThingName>精华丹</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao02</TexPath>
+		<Desc>精华丹。</Desc>	
+		<Tags>
+			<Tag Name="PracticeFood" Level="2"/>
+		</Tags>
+		<Rate>6</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>5</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="75"/>
+					<SalePrice Value="15" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="100" />
+					<SalePrice Value="25" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="100" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			
+			<Elixir>
+				<Modifier>Modifier_Dan_JingYuan</Modifier>
+			</Elixir>
+			<DevourDatas>
+				<li Name="Item_BodyPractice_JieMie" Count="1" Rate="1"/>
+				<li Name="Item_BodyPractice_JiuYang" Count="1" Rate="1"/>
+				<li Name="Item_BodyPractice_EXHuo" Count="1" Rate="1"/>
+				<li Name="Item_BodyPractice_JiaoLongYuanJing" Count="1" Rate="1"/>
+				<li Name="Item_BodyPractice_XiongFengYuanJing" Count="1" Rate="1"/>
+				<li Name="Item_BodyPractice_ZhuLongYuanJing" Count="1" Rate="1"/>
+				<li Name="Item_BodyPractice_TaiXu" Count="1" Rate="1"/>
+			</DevourDatas>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_MagicHerb" count = "25"/>
+					<Item name = "Item_LingStone" count = "9"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<ProduceMode>
+			<InitialUnlock>1</InitialUnlock>
+		</ProduceMode>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+-->
+</List></ThingDefs>

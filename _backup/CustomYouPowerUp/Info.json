@@ -1,0 +1,11 @@
+﻿{
+	"Name":"CustomYouPowerUp",		
+	"DisplayName":"自定义幽淬", 
+	"Desc":"自定义幽淬\n快捷键RCtrl+P打开设置面板\n可以设置幽淬的成功率和幽淬成功时增加的品阶\n",
+	"UIPackage":"UI/CustomYouPowerUp",
+	"GameVersion":0.95,	
+	"Version":1.00,	
+	"Author":"枫轩",			
+	"Sort":"99999",		
+	"IncreasedDesc":""	
+}

@@ -1,0 +1,123 @@
+
+
+已适配正式版本。主要功能：乾坤界内批量操作、批量画符、多人食用(吞噬)、多人装备、批量放置、批量炼宝、批量施展神通、全选等。
+
+一、选中物品时会添加按键【批量操作】，可以打开操作菜单；在乾坤界中按住左Ctrl，鼠标右键点击物品，也可以打开操作菜单（乾坤界内物品数量为0时不会弹出菜单）；操作菜单包括：批量画符、多人食用、多人装备、批量放置。
+
+1、【批量画符】：选择小人去绘制多种不同的符咒，使用的符纸与选中的符纸同品阶同名称（不使用禁用的符纸），不管堆叠数量均可用。使用快速画符的品质，若无符咒品质数据，则为100品质。
+
+2、【多人食用(吞噬)】和【批量吞噬】：让单个或多个小人食用（吞噬）与选中的物品同品阶同名称的物品，不食用禁用的物品，不管堆叠数量均可用，并可设置重复食用次数。
+
+3、【多人装备】：让单个或多个小人装备与选中物品同品阶同材料的物品（不装备禁用的物品），不适用于法宝和秘籍，其他物品不管堆叠数量均可用。
+
+4、【批量放置】：将与选中物品同品阶的物品放置到单个或多个置物台上，不管堆叠数量均可用。
+
+5、乾坤界内外物品的操作功能完全相同，批量操作物品时，会优先使用乾坤界外的物品，再自动从乾坤界取出补足数量，会排除禁用的物品、镇物、元神寄托物品、通灵物品。
+
+二、选中小人时会添加按键【批量操作】，可以打开操作菜单，操作菜单包括：批量炼宝、各种已学会的神通。
+
+1、【批量炼宝】：按住左Shift键，鼠标左键点选物品，物品会添加到面板上；若物品的堆叠数>1，则可以设置个数。添加任务后按键会变成【取消批量炼宝】，鼠标悬停可查看剩余任务数量，点击可取消剩余任务，正在进行的炼宝不被取消。若小人灵气不足则会等到灵气满足时自动继续炼宝，鼠标悬停在按键上会提示灵气不足。为了防止出现问题，有时某些选中的物品可能会被忽略。
+
+2、可批量施展神通，包括：搜魂、幽淬之法、他化自在、魂体寄生、化伤术、再造术、大衍神算、鉴定、御木诀、天霖诀、万木回春、吸星掌、凝珀诀、天妖化血术、鼎炉吸真术、元央归息法、风月幻境、如意幻境、摄神御鬼、九幽炼神、献祭。
+搜魂、幽淬、鉴定、御木诀、天霖诀、万木回春、吸星掌、凝珀诀、天妖化血术、鼎炉吸真术、元央归息法、风月幻境、如意幻境、摄神御鬼、九幽炼神、献祭等用法相同，按住左shift键，鼠标左键点选物品/小人/植物，物品/小人/植物的名称会添加到面板上（如果目标已被其他操作锁定则无法选中），确定以施展神通。
+对于幽淬，若物品的堆叠数=1，则可以设置幽淬的次数；若物品的堆叠数>1，则可以设置幽淬的个数。可选中并批量幽淬12阶物品，但不会产生任何效果。
+
+三、其他功能，包括：全选、打断娱乐。
+
+1、在选择小人的界面，可以通过快捷键“左Ctrl+A”实现全选，例如本mod中的多人食用、多人装备、批量他化等和原游戏中的历练、驻扎、进入地图等。
+
+Main features: Multiple Operation on the Mini Universe, Multiple Draw, Multiple Eat(Devour), Multiple Equip, Multiple Place, Multiple Craft, Multiple Perform Miracle, Select All Characters.
+
+1. Click [Multiple Operation] on the item menu to open the operation menu. On the Mini Universe panel, hold down the left Ctrl key and right-click the item to open the operation menu. The operation menu include: Multiple Draw, Multiple Eat(Devour), Multiple Equip, Multiple Place.
+
+1-1. [Multiple Draw]: Select a character to draw different talismans. Talisman papers used is of the same tier and name as the selected paper (not using banned papers). The quality of talismans is equal to the quality of Instant Draw or 100% if quality data is not available.
+
+1-2. [Multiple Eat(Devour)]: Select single or multiple characters to eat(devour) items with the same tier and name as the selected item. You can set the number of items for eating.
+
+1-3. [Multiple Equip]: Select single or multiple characters to equip items with the same tier and name as the selected item. Not applicable to artifact or manuals.
+
+1-4. [Multiple Place]: Select single or multiple Display to place items with the same tier and name as the selected item.
+
+1-5. Items outside the Mini Universe will be used first and then automatically taken from the Mini Universe to replenish the quantity. Not using banned items, Relics, Spirit Items, Illuminated Items.
+
+2. Click [Multiple Operation] on the character menu to open the operation menu. The operation menu include: Multiple Craft, Miracles learned.
+
+2-1. [Multiple Craft]: Click to open the Multiple Craft panel. Hold down the left Shift key and left-click items to add them to the Multiple Craft panel. If the number of stacks of the item is greater than 1, you can set the number of the item. It will be replaced with [Cancel Multiple Craft] after the order is given. If the character's Qi is insufficient, it will wait until the Qi is satisfied and then continue to craft artifacts automatically.
+
+2-2. Miracles that can be multiple performed include: Soul Inquiry, Specter Refinement, Exploitation of External Pleasures, Soul Infection, Panacea, Reconstruction, Derivative Calculation, Feng Shui Identifying, Chant of Wood Mastery, Rainchant, Botanic Revitalization, Palm of Absorption, Soul Chant, Sanguine Absorption, Qi Absorption Cauldron, Alleviation of Singularity, Alluring Illusion, Illusory Realm, Soul Snatcher, Nether Spirit Forging, Sacrifice Offering.
+
+3. On the select characters panel, you can use the hotkey (left Ctrl + A) to select all characters.
+
+
+
+
+已适配正式版本。主要功能：自动搬运弥留/尸体/昏迷小人、自动搜身、自动屠宰、灵植成熟提醒、自动领取势力点物资、淬体自动翻卡、自动蕴养。
+
+1、快捷键：Ctrl + L，打开设置面板（打不开可尝试修改快捷键）。所有功能都为默认关闭，需要通过设置面板开启。
+
+2、自动搬运弥留/尸体/昏迷小人：打开设置面板后，按住左Shift键，鼠标左键点击仓库/农田/药田中的任意位置将该区域添加到设置面板，然后设置该区域作为弥留/尸体/昏迷小人的存放区以及使用优先级，当敌人变成弥留/尸体/昏迷时就会被自动搬运到对应区域。
+按住左Shift键，鼠标右键点击设置面板上的区域名，可以将该区域删除。
+如果出现不会自动搬运，可以打开设置面板后直接点确定。
+
+3、自动搜身：自动搜身弥留或尸体小人，对昏倒的小人无效。
+
+4、自动屠宰：自动屠宰死亡的动物和妖兽。
+
+5、灵植成熟提醒：当各历练地点的灵植和造化玉籽成熟时，会有消息提醒。
+
+6、自动领取势力点物资：每天0点自动领取各势力点仓库的物资。
+
+7、淬体自动翻卡：体修选择淬体词条时自动翻开所有词条。
+
+8、自动蕴养：自动使用非玩家的小人尸体蕴养灵植，可设置蕴养规则。
+
+Main features: Auto Transporting, Auto Searching, Auto Butchering, Spiritual Plant Reminder, Auto Claiming, Auto Flipping, Auto Nurturing.
+
+1. Hotkey: Ctrl + L. Use the hotkey to open the settings panel. All features are turned off by default and need to be turned on via the settings panel.
+
+2. Auto Transporting: After opening the settings panel, hold down the left Shift key and left-click anywhere in the Storage, Field or Herb Garden to add the area to the settings panel. Then set up the area as a storage area for corpses, dying characters or unconscious characters and set the priority of the area. Characters will automatically transport the non-player's roles that are dead, dying or unconscious to the corresponding area. 
+Hold down the left Shift key and right-click the area name on the settings panel to delete the area. If it appears that characters will not transport enemies automatically, you can open the settings panel and just click comfirm button.
+
+3. Auto Searching: Characters will automatically search corpses or dying characters.
+
+4. Auto Butchering: Characters will automatically butcher dead animals and monsters.
+
+5. Spiritual Plant Reminder: A message window will pop up when the Spiritual Plant or the Fortune Seed at each location is ripe.
+
+6. Auto Claiming: Automatically claim all items in the storage at 0:00 every day.
+
+7. Auto Flipping: Flip all entries automatically when selecting an entry for Physical cultivation.
+
+8. Auto Nurturing: Characters will automatically use the non-player's corpses to nurture spiritual plants.
+
+
+
+
+1、选中小乾坤界或小乾坤界门户，会有按键【自定义】，可以打开设置面板，会显示乾坤界原有的物品、其他模组添加进乾坤界的物品、其他所有可以设置的物品，勾选物品就可以将其添加进乾坤界。
+
+2、在乾坤界窗口内按住左Shift键，鼠标右键点击物品，可以将该物品添加到（移除出）“常用”分类。也可以直接在设置面板设置。
+
+3、需要自己设置添加物品，可以将原本小乾坤界没有的物品添加进去；可以将其他模组物品和万界天宫自制物品添加进去。
+
+4、可以添加的物品类型，包括：木材、木料、石头、石块、金属、金属锭、植物、植物产物、角料、皮毛、布、骨骼、食物、肉类、食物原料、药物、符纸、珀、灵丹、灵石、竹子。
+
+5、不可添加的物品类型，包括：衣服、裤子、武器、宝物、符咒、秘籍、法宝、奇物、工具、垃圾、其他、未知。
+
+6、小乾坤界的物品分类修改为：材料、食物、药物、布革、其他、灵丹。
+
+7、乾坤界原有的物品和其他模组添加进乾坤界的物品不可移除。
+
+1. Click [Custom] on the building menu to open the settings panel. The settings panel will show all the types of items that can be added to the Mini Universe, check the item type to add it to the Mini Universe. 
+
+2. On the Mini Universe panel, hold down the left Shift key and right-click the item. It will be add to (remove from) the "Common" classification.
+
+3. It is possible to add other mod items and Realms Palace items to the Mini Universe.
+
+4. Types of items that can be added: Wood, Timber, Rock, Stone Block, Metal, Bar, Plant, Plant Product, Offcut, Fur, Fabric, Bone, Food, Meat, Ingredients, Medicine, Talisman Paper, Soul Gem, Spirit Stone, Pill, Bamboo.
+
+5. Types of items that cannot be added: Coat, Pants, Weapon, Treasure, Talisman, Manual, Artifact, Fortuitous Treasure, Tool, Rubbish, Misc.
+
+6. The classification of items in the Mini Universe has been changed to: Material, Food, Medicine, Fabric, Pill, Misc. 
+
+7. Items already in the Mini Universe and items added to the Mini Universe by other mods cannot be removed.
+

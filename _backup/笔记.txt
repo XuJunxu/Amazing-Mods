@@ -1,0 +1,106 @@
+存读档会改变list、table的排序
+
+GameMain:GetMod("Windows"):GetWindow("SetAutoOperationWindow"):OnInit();
+local url = self.check1.resourceURL
+local obj = UIPackage.CreateObjectFromURL(url)
+self.window:AddObj(obj,x,y);
+
+function ReplaceChild(parent, child1, child2)
+	local index = parent:GetChildIndex(child1);
+	parent:AddChildAt(child2, index);
+	child2:SetSize(child1.width, child1.height)
+	child2:SetXY(child1.x, child1.y)
+	parent:RemoveChild(child1);
+end
+local obj = CS.Wnd_RemoteStorage.Instance.contentPane.m_frame:GetChildAt(0);
+print(obj.resourceURL)
+
+替换frame背景图片
+local obj = CS.Wnd_RemoteStorage.Instance.contentPane.m_frame:GetChildAt(0);
+local child2 = UIPackage.CreateObjectFromURL(obj.resourceURL)
+local tb = GameMain:GetMod("Windows"):GetWindow("SetAutoOperationWindow")
+local frame = tb:GetChild("frame")
+local child1 = frame:GetChildAt(0);
+local parent = frame;
+
+替换frame
+local obj = CS.Wnd_RemoteStorage.Instance.frame
+local child2 = UIPackage.CreateObjectFromURL(obj.resourceURL)
+local tb = GameMain:GetMod("Windows"):GetWindow("SetAutoOperationWindow")
+local parent = tb.window.contentPane
+parent:RemoveChildAt(0);
+parent:AddChildAt(child2, 0);
+child2:SetSize(tb.window.width, tb.window.height)
+child2:SetXY(0, 0)
+
+local util = require 'xlua.util'
+util.print_func_ref_by_csharp()
+
+匿名函数要在调用前定义
+local testss = function()
+	print("testkk")
+end
+function test()
+	testss()
+end
+
+self.tips.onClick:Add(self.TipsClick);
+function SetAutoOperationWindow.TipsClick(context)
+	if CS.Wnd_Help.Instance ~= nil then
+		CS.Wnd_Help.ShowHelp("AutoOperationHelper_H1");
+	end
+end
+
+UILogicMgr.Instance.BasicMode.SelectThing(thing2);
+MapCamera.Instance.LookKey(thing2.Key);
+
+CS.Wnd_RemoteStorage.Instance:Show()
+GameMain:GetMod("CustomRomoteStorage"):OpenConfigWindow()
+
+GameMain:GetMod("Windows"):GetWindow("EquipmentStorageWindow"):Open();
+
+Map:AddEnemyAtSide("Human", CS.XiaWorld.g_emThingDir.Down, 10, CS.XiaWorld.g_emNpcRichLable.Normal);
+Map:AddEnemyAtSide("Wolf", CS.XiaWorld.g_emThingDir.Down, 10, CS.XiaWorld.g_emNpcRichLable.Normal);
+
+CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(21)
+EventList.txt: 21-蜚, 22-鹿蜀, 49-狼, 93-妖兽, 43-迷路的路人,
+
+print(CS.XiaWorld.World.Instance.GameMode)
+
+xlua.private_accessible(CS.XiaWorld.PlantThing);
+local p = world:GetSelectThing();
+p:DoReproduce();
+
+map.IsInDark
+UILogicMgr.Instance.BasicMode.CurSelectThing
+
+
+lua定义的神通只Lock小人Npc，不Lock物品Item，不Lock材料CostItem，不检查CostItem的禁用Actable 
+批量幽淬堆叠物品时，如果由多人同时全部幽淬，当有人幽淬到最后一次时会出现split异常
+
+Map:AddEnemyAtSide("Human", CS.XiaWorld.g_emThingDir.Down, 10, CS.XiaWorld.g_emNpcRichLable.Normal);
+Map:AddEnemyAtSide("Wolf", CS.XiaWorld.g_emThingDir.Down, 10, CS.XiaWorld.g_emNpcRichLable.Normal);
+
+local npc = world:GetSelectThing();
+npc.LuaHelper:DropAwardItem("Item_God_JieHui", 80);
+npc.LuaHelper:DropAwardItem("Item_GodPractice_MiJuan_6", 1);
+npc.LuaHelper:LearnEsoteric("Magic_JieHuiDaoPowerUp");
+
+CS.Wnd_GameMain.Instance.UIInfo.m_n32
+
+MapCamera
+
+BuildingProduce
+FabaoHeLianMgr.GetFitValue
+
+local t = world:GetSelectThing();
+GameUlt.CallBoss("Boss_Long", t.Key, nil, 1);
+
+
+动物批量食用、精怪吞食
+
+思考提醒、禁止通灵
+
+路人事件有bug
+
+灵宠培养设置

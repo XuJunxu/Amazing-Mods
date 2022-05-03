@@ -1,0 +1,33 @@
+<Magics><List>
+	<Magic Name="SoulCrystalYouPowerUp" Type="Class">
+		<DisplayName>幽淬之法</DisplayName>
+		<ItemCost>
+			<li name="Item_SoulCrystalYou" count="1"/>
+		</ItemCost>		
+		<Desc>对一个物品使用，消耗幽珀一个，有几率提高物品阶级。</Desc>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<SelectMode>Single</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<Param1>10</Param1><!--所需时间-->
+		<CostLing>30000</CostLing>
+		<SelectTarget>InLight|Item</SelectTarget>
+		<ClassName>Magic_Custom2YouPowerUp</ClassName>
+		<TargetDesc>请选择一个可以幽淬的物品</TargetDesc>
+	</Magic>
+	
+	<Magic Name="SoulCrystalLingPowerUp" Type="Class">
+		<DisplayName>灵淬之法</DisplayName>
+		<ItemCost>
+			<li name="Item_SoulCrystalLing" count="1"/>
+		</ItemCost>		
+		<Desc>对一个物品使用，消耗灵珀一个，有几率提高物品的灵气容纳率（如果是法宝则会提高其灵气容量）。</Desc>
+		<Icon>res\Sprs\ui\icon_lingcui01</Icon>
+		<SelectMode>Single</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<Param1>10</Param1><!--所需时间-->
+		<CostLing>30000</CostLing>
+		<SelectTarget>InLight|Item</SelectTarget>
+		<ClassName>Magic_Custom2LingPowerUp</ClassName>
+		<TargetDesc>请选择一个可以灵淬的物品</TargetDesc>
+	</Magic>
+</List></Magics>

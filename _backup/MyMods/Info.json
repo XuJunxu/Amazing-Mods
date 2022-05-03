@@ -1,0 +1,11 @@
+﻿{
+	"Name":"MyMods",
+	"DisplayName":"自用模组", 
+	"Desc":"自用模组",
+	"UIPackage":"UI/MyMods,UI/AutoCloseWindow", 
+	"GameVersion":0.98,	
+	"Version":1.00,
+	"Author":"枫轩",			
+	"Sort":"99999",		
+	"IncreasedDesc":""	
+}

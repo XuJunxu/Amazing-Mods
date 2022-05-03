@@ -1,0 +1,17 @@
+ActionWeight	CValue	L1	L2	L3	L4	L5
+EatShit	EatShit	1	20	40	80	120
+EatEssence	EatEssence	0	20	40	80	120
+EatDrug	EatDrug	1	20	40	80	120
+Eat_Item_TuEssence	Eat_Item_TuEssence	1	20	40	70	100
+Eat_Item_HuoEssence	Eat_Item_HuoEssence	1	20	40	70	100
+Eat_Item_ShuiEssence	Eat_Item_ShuiEssence	1	20	40	70	100
+Eat_Item_JinEssence	Eat_Item_JinEssence	1	20	40	70	100
+Eat_Item_MuEssence	Eat_Item_MuEssence	1	20	40	70	100
+Eat_Item_LongEgg	Eat_Item_LongEgg	1	20	40	70	100
+Eat_Item_FengEgg	Eat_Item_FengEgg	1	20	40	70	100
+Eat_Item_DragonShit	Eat_Item_DragonShit	1	20	40	70	100
+Eat_Item_BossFeng_Meat	Eat_Item_BossFeng_Meat	1	20	40	70	100
+Eat_Item_BossLong_Meat	Eat_Item_BossLong_Meat	1	20	40	70	100
+Eat_Item_BossZhuLong_Meat	Eat_Item_BossZhuLong_Meat	0	20	40	70	100
+Eat_Item_EarthEssence_1	Eat_Item_EarthEssence_1	1	20	40	70	100
+Eat_Item_EarthEssence1_1	Eat_Item_EarthEssence1_1	1	20	40	70	100

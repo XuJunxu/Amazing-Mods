@@ -1,0 +1,11 @@
+﻿{
+	"Name":"Custom2PowerUp",		
+	"DisplayName":"自定义幽淬灵淬", 
+	"Desc":"",
+	"UIPackage":"UI/Custom2PowerUp",
+	"GameVersion":0.95,	
+	"Version":1.00,			
+	"Author":"枫轩",			
+	"Sort":"99999",		
+	"IncreasedDesc":""	
+}

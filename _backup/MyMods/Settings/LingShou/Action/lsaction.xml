@@ -1,0 +1,344 @@
+<Defs><List>
+	<Def Name="EatShit" Parent="Sleep">
+		<Type>Fun</Type>
+		<Desc>吃屎</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+	<Def Name="EatEssence" Parent="Sleep">
+		<Type>Fun</Type>
+		<Desc>吃天才地宝</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+	<Def Name="EatDrug" Parent="Sleep">
+		<Type>Fun</Type>
+		<Desc>吃丹药</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+	<Def Name="FeedTongXie" Parent="Sleep">
+		<Type>Help</Type>
+		<Desc>喂通泄散</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+	
+	<Def Name="Feed_Item_Dan_Happiness" Parent="Sleep">
+		<Type>HighHelp</Type>
+		<Desc>喂极乐丹</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+	<Def Name="Feed_Item_Dan_PracticeSpeed" Parent="Sleep">
+		<Type>HighHelp</Type>
+		<Desc>喂黄芽丹</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+	<Def Name="Feed_Item_Dan_CalmDown" Parent="Sleep">
+		<Type>HighHelp</Type>
+		<Desc>喂清心丹</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+	<Def Name="Feed_Item_LingStone" Parent="Sleep">
+		<Type>HighHelp</Type>
+		<Desc>喂灵石</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+	<Def Name="Feed_Item_LingCrystal" Parent="Sleep">
+		<Type>HighHelp</Type>
+		<DefExp>0</DefExp>
+		<Desc>喂灵晶</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+	
+	<Def Name="Eat_Item_SnakeGallbladder" Parent="Sleep">
+		<Type>Eat</Type>
+		<Desc>吃蛇胆</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+
+	<Def Name="Eat_Item_BearGallbladder" Parent="Sleep">
+		<Type>Eat</Type>
+		<Desc>吃熊胆</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+
+	<Def Name="Eat_Item_RedGinseng" Parent="Sleep">
+		<Type>Eat</Type>
+		<Desc>吃赤参</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+
+	<Def Name="Eat_Item_PurpleGanodermaLucidum" Parent="Sleep">
+		<Type>Eat</Type>
+		<Desc>吃紫芝</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+
+	<Def Name="Eat_Item_TuEssence" Parent="Sleep">
+		<Type>Eat</Type>
+		<Desc>吃赭黄精</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+
+	<Def Name="Eat_Item_HuoEssence" Parent="Sleep">
+		<Type>Eat</Type>
+		<Desc>吃朱果</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+
+	<Def Name="Eat_Item_ShuiEssence" Parent="Sleep">
+		<Type>Eat</Type>
+		<Desc>吃五色</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+
+	<Def Name="Eat_Item_JinEssence" Parent="Sleep">
+		<Type>Eat</Type>
+		<Desc>吃琅琊果</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+
+	<Def Name="Eat_Item_MuEssence" Parent="Sleep">
+		<Type>Eat</Type>
+		<Desc>吃木枯藤</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+
+	<Def Name="Eat_Item_LifeStream" Parent="Sleep">
+		<Type>Eat</Type>
+		<Desc>吃长生泉</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+
+	<Def Name="Eat_Item_LongEgg" Parent="Sleep">
+		<Type>Eat</Type>
+		<Desc>吃蛟龙的卵</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+
+	<Def Name="Eat_Item_FengEgg" Parent="Sleep">
+		<Type>Eat</Type>
+		<Desc>吃凤凰的卵</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+
+	<Def Name="Eat_Item_DragonShit" Parent="Sleep">
+		<Type>Eat</Type>
+		<Desc>吃天龙砂</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+
+	<Def Name="Eat_Item_BossFeng_Meat" Parent="Sleep">
+		<Type>Eat</Type>
+		<Desc>吃凶凤的血肉</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+
+	<Def Name="Eat_Item_BossLong_Meat" Parent="Sleep">
+		<Type>Eat</Type>
+		<Desc>吃蛟龙的血肉</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+
+	<Def Name="Eat_Item_BossZhuLong_Meat" Parent="Sleep">
+		<Type>Eat</Type>
+		<Desc>吃原初血肉</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+
+	<Def Name="Eat_Item_EarthEssence" Parent="Sleep">
+		<Type>Eat</Type>
+		<Desc>吃地母灵液</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+
+	<Def Name="Eat_Item_LingMuXueJie" Parent="Sleep">
+		<Type>Eat</Type>
+		<Desc>吃灵木血竭</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+
+	<Def Name="Eat_Item_EarthEssence_1" Parent="Sleep">
+		<Type>Eat</Type>
+		<Desc>吃灵髓脂</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+
+	<Def Name="Eat_Item_EarthEssence1_1" Parent="Sleep">
+		<Type>Eat</Type>
+		<Desc>吃血髓脂</Desc>
+		<DefExp>0</DefExp>
+		<RaceDefExp>
+			<li Race="LsDog" Exp="0" />
+			<li Race="LsFox" Exp="0" />
+			<li Race="LsPhoenix" Exp="0" />
+			<li Race="LsDragon" Exp="0" />
+		</RaceDefExp>
+	</Def>
+
+</List></Defs>

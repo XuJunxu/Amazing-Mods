@@ -1,0 +1,19 @@
+<Magics><List>
+	<Magic Name="SoulCrystalYouPowerUp" Type="Class">
+		<DisplayName>幽淬之法</DisplayName>
+		<ItemCost>
+			<li name="Item_SoulCrystalYou" count="1"/>
+		</ItemCost>		
+		<Desc>对一个物品使用，消耗幽珀一个，有几率提高物品阶级。</Desc>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<SelectMode>Single</SelectMode>
+		<Ani>chuangong1</Ani>
+		<TargetAni>dazuo</TargetAni>
+		<Param1>10</Param1><!--所需时间-->
+		<CostLing>30000</CostLing>
+		<SelectTarget>InLight|Item</SelectTarget>
+		<ClassName>Magic_CustomYouPowerUp</ClassName>
+		<TargetDesc>请选择一个可以幽淬的物品</TargetDesc>
+	</Magic>
+	
+</List></Magics>

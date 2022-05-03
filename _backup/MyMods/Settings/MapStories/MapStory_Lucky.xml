@@ -1,0 +1,237 @@
+<Stories><List>	
+<!--
+	<Story Name="Story_SoulSeach">
+		<DisplayName>搜魂</DisplayName>
+		<Desc>[NAME]对这个弥留的修行者施展了搜魂大法，试图获得一些有用的信息。</Desc>
+		<Kind>None</Kind>
+		<GlobleOKResult><![CDATA[	
+			local tnpc = story:GetBindNpc();
+			local rs = false;
+			local nK = 1 
+			if tnpc ~= nil then
+				if me:GetRoomFengshui() == 4 then
+					nK = 1.2
+				elseif me:GetRoomFengshui() == 5 then
+					nK = 1.5
+				elseif me:GetRoomFengshui() == 6 then
+					nK = 2
+				end
+				if tnpc.npcObj.bDaNeng == true then
+					if rs == false then
+						for i = 1, world:RandomInt(2,6) do
+							me:DropEsotericCustomize(XT("上古秘术-"), world:RandomInt(0,6), 0, world:RandomFloat(0.75,1.5), 9, 4, XT("巨量的"));
+						end
+						rs = true;
+					end
+				elseif (tnpc.npcObj.IsEliteEnemy) then
+					rs = false
+				else
+					if rs == false and world:CheckRate(0.5 * nK) then
+						local gname = tnpc:GetGongName();
+						if gname ~= nil then
+							me:UnLockGong(gname);
+							rs = true;
+						end
+					end
+					if world:CheckRate(0.05 * nK) then
+						me:AddSecret(me:RandomInt(1, 23));
+						rs = true;
+					end
+					if rs == false and world:CheckRate(0.05 * nK) then
+						local ename = tnpc:GetRandomEsotericName();
+						if ename ~= nil then
+							me:DropEsoteric(ename);
+							rs = true;
+						end
+					end
+				end
+			end
+			if rs == false then
+				me:AddMsg(XT("一无所获"));
+			end
+		]]>
+		</GlobleOKResult>
+	</Story>
+-->
+<!-- local nR = world:RandomInt(1, 21); -->
+	<Story Name="Story_Item_BossSoulItem" Parent="BaseFillingStory">
+		<DisplayName>参悟</DisplayName>
+		<Desc>[NAME]试图从中获取一些有用的信息。</Desc>
+		<Kind>None</Kind>
+		<Selections>
+			<li>
+				<Display>运转元神</Display>
+				<OKResult>
+				<![CDATA[	
+					local nR = world:RandomInt(1, 10);
+					local nY = world:RandomInt(5, 60);
+					if me:GetGLevel() >= 10 then
+						if story:GetBindThing().def.Name == "Item_BossLong_NiLin" then
+							if me:GetFlag(76) == 0 then
+								me:AddMsg(XT("[NAME]运转元神，小心的投入蛟龙的逆鳞中。在接触的瞬间，无数破碎的记忆旋涡便将[NAME]吞没。"));me:AddMsg(string.format(XT("虽然外界只有一瞬，但识海之中不辩春秋，[NAME]在记忆旋涡中沉浮，瞬间已过%s年，等到[NAME]清醒，记忆里已经多了一些陌生的信息。"), tostring(nY)));
+								if me:GetLuck() > nR then
+									me:LearnEsoteric("Other_Esoterica_LongDan", true);me:SetFlag(76, 1);
+								else
+									me:AddTreeExp(nY * 15000);
+								end
+							else
+								if me:GetLuck() > nR then
+									local nRk = world:RandomInt(1, 11)
+									local sEdesc = nil
+									if nRk <= 5 then
+										sEdesc = XT("大量的")
+									else
+										sEdesc = XT("巨量的")
+									end
+									me:LearnEsotericCustomize(XT("真龙秘法-"), 3, 1, true, (0.5 + 0.1 * nRk), math.floor(4 + 0.5 * nRk), 4, sEdesc)
+								else
+									me:AddTreeExp(nY * 15000);
+								end
+							end
+							me.npcObj.PropertyMgr:AddAge(nY);me:AddMsg(string.format(XT("[NAME]苍老了%s年。"), tostring(nY)));
+						elseif story:GetBindThing().def.Name == "Item_BossFeng_HongYu" then
+							if me:GetFlag(77) == 0 then
+								me:AddMsg(XT("[NAME]运转元神，小心的投入凶凤的真焱玉中。在接触的瞬间，无数破碎的记忆旋涡便将[NAME]吞没。"));me:AddMsg(string.format(XT("虽然外界只有一瞬，但识海之中不辩春秋，[NAME]在记忆旋涡中沉浮，瞬间已过%s年，等到[NAME]清醒，记忆里已经多了一些陌生的信息。"), tostring(nY)));
+								if me:GetLuck() > nR then
+									me:LearnEsoteric("Other_Esoterica_FengDan", true);me:SetFlag(77, 1);
+								else
+									me:AddTreeExp(nY * 15000);
+								end
+							else
+								if me:GetLuck() > nR then
+									local nRk = world:RandomInt(1, 11)
+									local sEdesc = nil
+									if nRk <= 5 then
+										sEdesc = XT("大量的")
+									else
+										sEdesc = XT("巨量的")
+									end
+									me:LearnEsotericCustomize(XT("真龙秘法-"), 4, 2, true, (0.5 + 0.1 * nRk), math.floor(4 + 0.5 * nRk), 4, sEdesc)
+								else
+									me:AddTreeExp(nY * 15000);
+								end
+							end
+							me.npcObj.PropertyMgr:AddAge(nY);me:AddMsg(string.format(XT("[NAME]苍老了%s年。"), tostring(nY)));
+						elseif story:GetBindThing().def.Name == "Item_BossZhuLong_LongYu" then
+							if me:GetFlag(78) == 0 then
+								me:AddMsg(XT("[NAME]运转元神，小心的投入混沌的龙玉中。在接触的瞬间，无数破碎的记忆旋涡便将[NAME]吞没。"));me:AddMsg(string.format(XT("虽然外界只有一瞬，但识海之中不辩春秋，[NAME]在记忆旋涡中沉浮，瞬间已过%s年，等到[NAME]清醒，记忆里已经多了一些陌生的信息。"), tostring(nY)));
+								if me:GetLuck() > nR then
+									me:LearnEsoteric("Other_Esoterica_ZhuLongDan", true);me:SetFlag(78, 1);
+								else
+									me:AddTreeExp(nY * 15000);
+								end
+							else
+								if me:GetLuck() > nR then
+									local nRk = world:RandomInt(1, 11)
+									local sEdesc = nil
+									if nRk <= 5 then
+										sEdesc = XT("大量的")
+									else
+										sEdesc = XT("巨量的")
+									end
+									me:LearnEsotericCustomize(XT("阴阳秘法-"), 0, 0, true, (0.5 + 0.1 * nRk), math.floor(4 + 0.5 * nRk), 4, sEdesc)
+								else
+									me:AddTreeExp(nY * 15000);
+								end
+							end
+							me.npcObj.PropertyMgr:AddAge(nY);me:AddMsg(string.format(XT("[NAME]苍老了%s年。"), tostring(nY)));
+						end
+						world:SetFlag(story:GetBindThing(), 79, world:GetFlag(story:GetBindThing(),79) + 1)
+						local nUseCount = world:GetFlag(story:GetBindThing(),79)
+						local bindingName = story:GetBindThing():GetName()
+						if nUseCount < 3 then
+							me:AddMsg(string.format(XT("因使用元神强行读取信息，%s上似乎多了一些裂纹……"), tostring(bindingName)));
+						elseif nUseCount == 3 then
+							me:AddMsg(string.format(XT("%s上裂纹密布，似乎随时可能损坏了……"), tostring(bindingName)));
+						elseif nUseCount >= world:RandomInt(4, 9) then
+							me:AddMsg(string.format(XT("随着[NAME]的元神回归本体，%s发出一声清脆的声音，碎裂为粉末。"), tostring(bindingName)));story:RemoveBindItem()
+						else
+							me:AddMsg(string.format(XT("%s上裂纹密布，似乎随时可能损坏了……"), tostring(bindingName)));
+						end
+					else
+						me:AddMsg(XT("[NAME]并没有练就元神，根本无法读取其中的信息。"));
+					end
+				]]>		
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+	<Story Name="Story_YiJieLieFeng"  Parent="BaseFillingStory">
+		<DisplayName>异界裂缝</DisplayName>
+		<Desc>传说这片破碎的空间诞生于上古第二次仙魔大战，而后消失无踪，谁料时隔多年，竟然再度现世。不过此地异常凶险，如无特殊机缘，就算大罗金仙也会失陷其中。</Desc>
+		<Kind>Story_YiJieLieFeng</Kind>
+		<Selections>
+			<li>
+				<Display>充满喜庆气息的裂缝</Display>
+				<OKResult><![CDATA[	
+				local nY = world:GetNow().Year
+				local nM = world:GetNow().Month
+				local nD = world:GetNow().Day
+				local tM = {
+				[2019] = {1,2},
+				[2020] = {1,2},
+				[2021] = {1,2},
+				[2022] = {1,2},
+				[2023] = {1,2},
+				[2024] = {1,2},
+				[2025] = {1,2},
+				[2026] = {2,3},
+				[2027] = {1,2},
+				[2028] = {1,2},
+				[2029] = {1,2},
+				[2030] = {1,2}
+				}
+				local tD = {
+				[2019] = {20,30},
+				[2020] = {10,9},
+				[2021] = {28,27},
+				[2022] = {17,16},
+				[2023] = {7,6},
+				[2024] = {26,25},
+				[2025] = {14,13},
+				[2026] = {2,4},
+				[2027] = {22,21},
+				[2028] = {11,10},
+				[2029] = {29,28},
+				[2030] = {19,18}
+				}
+				if (nY >= 2000) then
+					if world:GetWorldFlag(39) == 0 then
+						me:AddMsg(XT("[NAME]尝试用神念靠近裂缝，裂缝中突然传来一阵可怕的吸力，将[NAME]的意识卷入其中。在经过一个光怪陆离的通道后，[NAME]来到一个陌生的世界。"));me:TriggerStory("Secrets_YiJieKaiQi11");
+					else
+						me:AddMsg(XT("你已经探访过这里了。"));
+					end
+				else
+					me:AddMsg(XT("似乎天时有变，此时此刻，空间裂缝阻力奇大，并不能进入。"));
+				end
+				]]>
+				</OKResult>
+			</li>
+			
+			<li>
+				<Display>充满威严气息的裂缝</Display>
+				<OKResult><![CDATA[	
+				local nY = world:GetNow().Year
+				local nM = world:GetNow().Month
+				local nD = world:GetNow().Day
+				if (nY >= 2000) then
+					if world:GetWorldFlag(87) == 0 then
+						me:AddMsg(XT("[NAME]尝试用神念靠近裂缝，裂缝中突然传来一阵可怕的吸力，将[NAME]的意识卷入其中。在经过一个光怪陆离的通道后，[NAME]来到一个陌生的世界。"));me:TriggerStory("Secrets_YiJieKaiQi21");
+					else
+						me:AddMsg(XT("你已经探访过这里了。"));
+					end
+				else
+					me:AddMsg(XT("似乎天时有变，此时此刻，空间裂缝阻力奇大，并不能进入。"));
+				end
+				]]>
+				</OKResult>
+			</li>
+			<li>
+				<Display>离去</Display>
+				<OKResult>me:AddMsg(XT("此处太过凶险，还是不要过分靠近了。"));</OKResult>
+			</li>
+		</Selections>
+	</Story>
+	
+</List></Stories>

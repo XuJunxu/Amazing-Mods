@@ -1,0 +1,79 @@
+﻿<ThingDefs><List>
+	<ThingDef Type="Building" Name="Building_SleeveSpace2" Parent="MiracleBase">
+	<TexPath>res\Sprs\building_hongchenzhongsheng\building_xiaoqiankun01</TexPath>
+	<TexScale>1</TexScale>
+	<ThingName>乾坤界</ThingName>
+	<Desc>以乾坤灵晶的空间之力为引，辅以五行宝材开辟出的不稳定小千世界，可以储存物品在其中。但是由于其空间并不稳定，只能存放一些性质平稳的普通之物。否则可能会导致其内空间崩塌。</Desc>
+	<ElementKind>None</ElementKind>
+	<BlockLight>0</BlockLight>
+	<ShadowSize>
+		<x>1</x>
+		<y>1.2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[1,1,1,1,1,1,1,1],
+		[1,1,1,1,1,1,1,1],
+		[1,1,1,1,1,1,1,1],
+		[1,1,1,1,3,1,1,1],
+		[1,1,1,1,1,1,1,1],
+		[1,1,1,1,1,1,1,1],
+		[1,1,1,1,1,1,1,1],
+		</Data>
+		<OffsetGroup>
+			<li><x>0</x><y>0</y></li>  <!-- 后 -->
+			<li><x>0</x><y>0</y></li>     <!-- 右 -->
+			<li><x>-0.5</x><y>1.3</y></li>     <!-- 前 -->
+			<li><x>0</x><y>0</y></li>     <!-- 左 -->
+		</OffsetGroup>
+	</Collider>
+	<Building>
+		<NotRandom>1</NotRandom>
+		<AutoUnLock>1</AutoUnLock>
+		<MaxCount>1</MaxCount>
+		<Perfab>Building/Prefabs/xiaoqiankunjie</Perfab>
+		<SnowRenderData>
+			<x>1.5</x>
+			<y>1.5</y>
+			<z>1</z>
+		</SnowRenderData>
+		<BeMade>
+			<WorkToMake>10</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingStone" count = "1"/>
+			</CostItems>
+		</BeMade>
+	</Building>
+	<Harvest>
+		<DropItems>
+			<li>
+				<ThingDef>Item_Wonder_QianKunLingJing</ThingDef>
+				<Count>1</Count>
+			</li>
+		</DropItems>
+	</Harvest>
+	<StoryBnts>
+			<li Name="收集" Desc="收集。" Script="GameMain:GetMod('AmazingWorldOfFengXuan'):CollectToStorage(bind)" Icon="res/Sprs/ui/icon_hand"/>
+			<li Name="设置" Desc="设置。" Script="GameMain:GetMod('AmazingWorldOfFengXuan'):OpenSettings(bind)" Icon="res/Sprs/ui/icon_hand"/>
+			<li Name="查看" Desc="查看。" Script="GameMain:GetMod('AmazingWorldOfFengXuan'):OpenStorage(bind)" Icon="res/Sprs/ui/icon_fangzhiwupin01"/>
+	</StoryBnts>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+	</Ling>
+	<Light>
+		<Value>200</Value>
+		<Failing>1</Failing>
+		<FailRadius>4</FailRadius>
+		<Radius>4</Radius>
+		<Color>FDAD00C6</Color>
+	</Light>
+	</ThingDef>
+
+</List></ThingDefs>
